@@ -1,54 +1,29 @@
-Copyright (c) 2026 Washington University in St. Louis. All rights reserved.
+MIT License
 
-Chronolume reproduction package: Noncommercial Research License
+Copyright (c) 2026 Washington University in St. Louis
 
-This license covers all assets in this package (source code, scripts, tests,
-documentation, measurement data, analysis outputs, figures, and 3D models),
-except as listed under "Excluded material" below.
+The MIT License below applies to everything in this repository (code, data,
+documentation, and the 3D model in `3d/`) except as listed.
 
-1. Noncommercial use. Permission is granted, free of charge, to use, copy,
-   modify, and redistribute these assets, in whole or in part, for
-   noncommercial purposes only, provided that:
-
-   a. this copyright notice and license accompany every copy or substantial
-      portion, including modified versions; and
-   b. publications, presentations, or derived works that use these assets cite
-      the associated paper: Gaidica M. and Rosengart M., "Spectral and melanopic
-      characterization of consumer see-through extended-reality glasses for
-      controlled ocular photostimulation."
-
-   Noncommercial purposes include academic research, teaching, personal study,
-   and peer review, conducted by individuals or by nonprofit, academic, or
-   government institutions, where neither the assets nor their results are
-   sold, licensed, or used to obtain commercial advantage.
-
-2. Commercial use requires prior authorization. Any commercial use requires
-   prior written authorization from the corresponding author (Matt Gaidica,
-   Washington University School of Medicine). Commercial use includes, without
-   limitation: incorporating any asset into a product or service that is sold,
-   licensed, or offered for a fee; using any asset in the development,
-   testing, calibration, validation, or regulatory submission of a commercial
-   product or service; use by or on behalf of a for-profit entity for its
-   business purposes; and selling or sublicensing the assets themselves.
-
-3. No other rights. No patent rights, trademark rights, or other rights are
-   granted by implication, estoppel, or otherwise, beyond those expressly
-   stated above.
-
-Excluded material
-
-- The VITURE Glasses SDK is not included in this package and is not licensed by
-  it. It is copyright VITURE Inc. and is governed by VITURE's own terms.
+- The VITURE Glasses SDK is not included and is not licensed by this project.
+  It is copyright VITURE Inc. and is governed by VITURE's own terms.
 - The CIE reference tables in `analysis/uprtek/src/uprtek/data/cie/` remain
   under their original terms; see `ATTRIBUTION.md` in that folder.
 
-Disclaimer
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
 
-THE ASSETS ARE PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
 IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. THEY ARE RESEARCH TOOLS
-AND ARE NOT A MEDICAL DEVICE OR INTENDED FOR CLINICAL USE. IN NO EVENT SHALL
-THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE ASSETS OR THE USE OR OTHER DEALINGS IN THE
-ASSETS.
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
