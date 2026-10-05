@@ -1,0 +1,101 @@
+{
+  "source": "data/uprtek/model_ladders_s1_20261005_060838/raw/C128-000-000_L4_D98.csv",
+  "instrument": "UPRtek",
+  "meter_model": "MK350X",
+  "meter_optical_sn": "21B00584",
+  "meter_fw": "FWVer:1.1.1.B4",
+  "label": "C128-000-000_L4_D98",
+  "device": "Luma Ultra",
+  "backend": "viture 2.4.0",
+  "eye": "both",
+  "rgb": [
+    128,
+    0,
+    0
+  ],
+  "brightness_level": 4,
+  "requested_brightness": 4,
+  "brightness_source": "sdk",
+  "duty_cycle": 98,
+  "requested_duty_cycle": 98,
+  "film": 0.0,
+  "display_mode": "49",
+  "calibration_version": "uprtek_v001",
+  "readback": {
+    "fb_w": 1920,
+    "fb_h": 1080,
+    "left": [
+      128,
+      0,
+      0
+    ],
+    "right": [
+      128,
+      0,
+      0
+    ]
+  },
+  "absolute_scale": "instrument_factory_calibration",
+  "certainty": "directly_measured",
+  "exposure_plane": "corneal-plane irradiance (cosine-corrected probe at eye position)",
+  "spectrum_unit_factor_to_W_m2_nm": 0.001,
+  "n_repeats": 3,
+  "repeat_irradiance_380_780_W_m2": [
+    0.012405127069269998,
+    0.012394938151558,
+    0.012442685997548001
+  ],
+  "repeat_cv_percent": 0.2025686439513474,
+  "exposure_time_raw": [
+    1200000.0,
+    1200000.0,
+    1200000.0
+  ],
+  "light_strength": [
+    0,
+    0,
+    0
+  ],
+  "instrument_lux": 2.0934836069742837,
+  "instrument_cct_K": 0.0,
+  "instrument_cie1931_x": 0.6185301939646403,
+  "instrument_cie1931_y": 0.3439587354660034,
+  "computed_to_instrument_lux_ratio": 0.9999986991381392,
+  "peak_wavelength_nm": 627.0,
+  "measured_fwhm_nm": 68.0265703220316,
+  "lambda_half_left_nm": 601.0991141670063,
+  "lambda_half_right_nm": 669.1256844890379,
+  "spectral_centroid_nm": 640.5174582688578,
+  "global_peak_wavelength_nm": 627.0,
+  "irradiance_380_500_W_m2": 0.00041509268717866666,
+  "irradiance_500_600_W_m2": 0.0015861804552033333,
+  "irradiance_600_780_W_m2": 0.010412977263743333,
+  "irradiance_380_780_W_m2": 0.012414250406125333,
+  "blue_fraction_380_500": 0.03343679026917769,
+  "green_fraction_500_600": 0.1277709409196945,
+  "red_fraction_600_780": 0.8387922688111278,
+  "offband_fraction_500_780": 0.9665632097308223,
+  "irradiance_W_m2": 0.012414250406125333,
+  "irradiance_uW_cm2": 1.2414250406125333,
+  "irradiance_400_500_uW_cm2": 0.03099622555253333,
+  "irradiance_430_470_uW_cm2": 0.012254096634333335,
+  "irradiance_380_780_uW_cm2": 1.2414250406125333,
+  "photon_irradiance_photons_m2_s": 4.0028999974140184e+16,
+  "photon_irradiance_photons_cm2_s": 4002899997414.0186,
+  "photon_irradiance_400_500_photons_cm2_s": 70397374279.26103,
+  "photopic_illuminance_lux": 2.0934808836413037,
+  "s_cone_opic_EDI_lux": 0.20653856427768302,
+  "m_cone_opic_EDI_lux": 0.9787654432655672,
+  "l_cone_opic_EDI_lux": 2.3937524871391203,
+  "rhodopic_EDI_lux": 0.33200810737305636,
+  "melanopic_EDI_lux": 0.251505072016761,
+  "s_cone_opic_DER": 0.0986579652537545,
+  "m_cone_opic_DER": 0.4675301555957597,
+  "l_cone_opic_DER": 1.1434317389015456,
+  "rhodopic_DER": 0.15859142061788348,
+  "melanopic_DER": 0.12013726706656366,
+  "qc_flags": [
+    "LOW_LIGHT"
+  ],
+  "quantitative": true
+}

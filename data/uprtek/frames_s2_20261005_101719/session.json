@@ -1,0 +1,981 @@
+{
+  "schema": "chronolume-uprtek-frame-session/1",
+  "status": "complete",
+  "started": "2026-10-05T10:17:23.252-05:00",
+  "finished": "2026-10-05T10:21:31.782-05:00",
+  "package_version": "0.1.0",
+  "python": "3.12.10 32bit",
+  "session_index": 2,
+  "reseated": true,
+  "meter": {
+    "name": "0690815613",
+    "optical_sn": "21B00584",
+    "model": "MK350X",
+    "hw_version": "HWVer:1.1.0CE",
+    "fw_version": "FWVer:1.1.1.B4",
+    "wavelength_start_nm": 380,
+    "wavelength_end_nm": 780,
+    "library_version": "0x10204",
+    "library_dir": "C:\\Program Files (x86)\\uSpectrum\\Library\\Example\\VC\\dll_test_vc2008\\Debug"
+  },
+  "host": {
+    "backend": "viture 2.4.0",
+    "device": "Luma Ultra",
+    "firmware": "12.0.01.101_20260605",
+    "product_id": "4356",
+    "film": "0.000000",
+    "display_mode": "49",
+    "initial_brightness": 8,
+    "initial_duty_cycle": "90",
+    "framebuffer": [
+      1920,
+      1080
+    ],
+    "session_log": "C:/Users/Matt/Documents/Software/Chronolume\\data\\sessions\\session_20261005_101723.jsonl",
+    "restored_brightness": "8",
+    "restored_duty_cycle": "90"
+  },
+  "frames": [
+    {
+      "name": "F4_red_orb",
+      "title": "Red light-only orb",
+      "webapp_view": "Light Only orb, night theme",
+      "composed_to_guidance": true,
+      "level": 5,
+      "nominal_rgb": [
+        255,
+        0,
+        0
+      ],
+      "references": [
+        [
+          255,
+          0,
+          0
+        ],
+        [
+          192,
+          0,
+          0
+        ],
+        [
+          128,
+          0,
+          0
+        ],
+        [
+          64,
+          0,
+          0
+        ]
+      ],
+      "width": 1920,
+      "height": 1080,
+      "hash": "cb57e0b06ec58f41",
+      "lit_fraction": 0.44178240740740743,
+      "colors": [
+        {
+          "rgb": [
+            0,
+            0,
+            0
+          ],
+          "pixels": 1157520,
+          "fraction": 0.5582175925925926
+        },
+        {
+          "rgb": [
+            64,
+            0,
+            0
+          ],
+          "pixels": 254164,
+          "fraction": 0.12257137345679012
+        },
+        {
+          "rgb": [
+            255,
+            0,
+            0
+          ],
+          "pixels": 229020,
+          "fraction": 0.11044560185185186
+        },
+        {
+          "rgb": [
+            192,
+            0,
+            0
+          ],
+          "pixels": 219864,
+          "fraction": 0.10603009259259259
+        },
+        {
+          "rgb": [
+            128,
+            0,
+            0
+          ],
+          "pixels": 213032,
+          "fraction": 0.10273533950617283
+        }
+      ],
+      "file": "C:\\Users\\Matt\\Documents\\Software\\Chronolume\\data\\uprtek\\frames\\1920x1080\\F4_red_orb.ppm"
+    },
+    {
+      "name": "F3_night_text",
+      "title": "Night text slide (webapp colors)",
+      "webapp_view": "World History slide, night theme",
+      "composed_to_guidance": false,
+      "level": 5,
+      "nominal_rgb": [
+        255,
+        92,
+        56
+      ],
+      "references": [
+        [
+          255,
+          92,
+          56
+        ],
+        [
+          20,
+          5,
+          7
+        ]
+      ],
+      "width": 1920,
+      "height": 1080,
+      "hash": "d63de97e63b578e5",
+      "lit_fraction": 1.0,
+      "colors": [
+        {
+          "rgb": [
+            20,
+            5,
+            7
+          ],
+          "pixels": 1819456,
+          "fraction": 0.8774382716049383
+        },
+        {
+          "rgb": [
+            255,
+            92,
+            56
+          ],
+          "pixels": 254144,
+          "fraction": 0.12256172839506173
+        }
+      ],
+      "file": "C:\\Users\\Matt\\Documents\\Software\\Chronolume\\data\\uprtek\\frames\\1920x1080\\F3_night_text.ppm"
+    },
+    {
+      "name": "F2_orb",
+      "title": "Light-only orb",
+      "webapp_view": "Light Only orb, morning theme",
+      "composed_to_guidance": true,
+      "level": 8,
+      "nominal_rgb": [
+        0,
+        0,
+        255
+      ],
+      "references": [
+        [
+          0,
+          0,
+          255
+        ],
+        [
+          0,
+          0,
+          192
+        ],
+        [
+          0,
+          0,
+          128
+        ],
+        [
+          0,
+          0,
+          64
+        ]
+      ],
+      "width": 1920,
+      "height": 1080,
+      "hash": "308c312100a958e1",
+      "lit_fraction": 0.44178240740740743,
+      "colors": [
+        {
+          "rgb": [
+            0,
+            0,
+            0
+          ],
+          "pixels": 1157520,
+          "fraction": 0.5582175925925926
+        },
+        {
+          "rgb": [
+            0,
+            0,
+            64
+          ],
+          "pixels": 254164,
+          "fraction": 0.12257137345679012
+        },
+        {
+          "rgb": [
+            0,
+            0,
+            255
+          ],
+          "pixels": 229020,
+          "fraction": 0.11044560185185186
+        },
+        {
+          "rgb": [
+            0,
+            0,
+            192
+          ],
+          "pixels": 219864,
+          "fraction": 0.10603009259259259
+        },
+        {
+          "rgb": [
+            0,
+            0,
+            128
+          ],
+          "pixels": 213032,
+          "fraction": 0.10273533950617283
+        }
+      ],
+      "file": "C:\\Users\\Matt\\Documents\\Software\\Chronolume\\data\\uprtek\\frames\\1920x1080\\F2_orb.ppm"
+    },
+    {
+      "name": "F1_morning_text",
+      "title": "Morning text slide",
+      "webapp_view": "World History slide, morning theme",
+      "composed_to_guidance": true,
+      "level": 8,
+      "nominal_rgb": [
+        0,
+        0,
+        255
+      ],
+      "references": [
+        [
+          0,
+          0,
+          255
+        ]
+      ],
+      "width": 1920,
+      "height": 1080,
+      "hash": "9be1378770e09165",
+      "lit_fraction": 0.12256172839506173,
+      "colors": [
+        {
+          "rgb": [
+            0,
+            0,
+            0
+          ],
+          "pixels": 1819456,
+          "fraction": 0.8774382716049383
+        },
+        {
+          "rgb": [
+            0,
+            0,
+            255
+          ],
+          "pixels": 254144,
+          "fraction": 0.12256172839506173
+        }
+      ],
+      "file": "C:\\Users\\Matt\\Documents\\Software\\Chronolume\\data\\uprtek\\frames\\1920x1080\\F1_morning_text.ppm"
+    }
+  ],
+  "measure_options": {
+    "sequence": "frames",
+    "eye": "both",
+    "repeats": 3,
+    "settle_s": 1.0,
+    "brightness_settle_s": 3.0,
+    "auto_exposure": true,
+    "exposure_ms": 50,
+    "max_exposure_ms": 4000,
+    "priming": 1,
+    "max_retries": 5,
+    "retry_wait_s": 2.0,
+    "capture_retries": 3,
+    "anchor_every": 0,
+    "duty": 98,
+    "duty_presets": [
+      98,
+      42,
+      30
+    ],
+    "base_brightness": null,
+    "brightness_levels": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    ],
+    "brightness_change_rgb": [
+      0,
+      0,
+      0
+    ],
+    "manual_brightness": false,
+    "calibration_version": "uprtek_v001",
+    "skip_dark": false,
+    "warmup_s": 0.0,
+    "allow_mock": false,
+    "notes": "",
+    "extra": {}
+  },
+  "duty_acceptance": {
+    "time": "2026-10-05T10:17:23.285-05:00",
+    "checks": [
+      {
+        "requested": 98,
+        "reported": "98",
+        "ok": true,
+        "error": null
+      },
+      {
+        "requested": 42,
+        "reported": "42",
+        "ok": true,
+        "error": null
+      },
+      {
+        "requested": 30,
+        "reported": "30",
+        "ok": true,
+        "error": null
+      }
+    ],
+    "duties": [
+      98,
+      42,
+      30
+    ]
+  },
+  "base_duty": 98,
+  "dark": {
+    "time": "2026-10-05T10:17:52.007-05:00",
+    "method": "mk_Msr_Dark (capped sensor)",
+    "duration_s": 19.0
+  },
+  "warmup": null,
+  "blocks": [
+    {
+      "index": 0,
+      "frame": "F4_red_orb",
+      "level": 5,
+      "duty": 98,
+      "captures": [
+        "K_F4_red_orb_start",
+        "F4_red_orb",
+        "F4_red_orb_U064-000-000",
+        "F4_red_orb_U255-000-000",
+        "F4_red_orb_U192-000-000",
+        "F4_red_orb_U128-000-000",
+        "K_F4_red_orb_end"
+      ]
+    },
+    {
+      "index": 1,
+      "frame": "F3_night_text",
+      "level": 5,
+      "duty": 98,
+      "captures": [
+        "K_F3_night_text_start",
+        "F3_night_text",
+        "F3_night_text_U020-005-007",
+        "F3_night_text_U255-092-056",
+        "K_F3_night_text_end"
+      ]
+    },
+    {
+      "index": 2,
+      "frame": "F2_orb",
+      "level": 8,
+      "duty": 98,
+      "captures": [
+        "K_F2_orb_start",
+        "F2_orb",
+        "F2_orb_U000-000-064",
+        "F2_orb_U000-000-255",
+        "F2_orb_U000-000-192",
+        "F2_orb_U000-000-128",
+        "K_F2_orb_end"
+      ]
+    },
+    {
+      "index": 3,
+      "frame": "F1_morning_text",
+      "level": 8,
+      "duty": 98,
+      "captures": [
+        "K_F1_morning_text_start",
+        "F1_morning_text",
+        "F1_morning_text_U000-000-255",
+        "K_F1_morning_text_end"
+      ]
+    }
+  ],
+  "anchors": [
+    {
+      "label": "ANCHOR_00",
+      "after_step": null,
+      "time": "2026-10-05T10:18:04.703-05:00",
+      "lux": [
+        28.31209945678711,
+        28.451913833618164,
+        28.489587783813477
+      ],
+      "lux_median": 28.451913833618164,
+      "ratio_to_reference": null,
+      "flags": [],
+      "duty_reapplied_from": null,
+      "anchor_state": {
+        "brightness": "8",
+        "duty_cycle": "98"
+      },
+      "restored_state": {
+        "brightness": "5",
+        "duty_cycle": "98"
+      },
+      "readback": {
+        "fb_w": 1920,
+        "fb_h": 1080,
+        "left": [
+          0,
+          0,
+          255
+        ],
+        "right": [
+          0,
+          0,
+          255
+        ]
+      },
+      "readback_fixes": [],
+      "capture_attempts": 1
+    },
+    {
+      "label": "ANCHOR_01",
+      "after_step": "K_F4_red_orb_end",
+      "time": "2026-10-05T10:19:09.022-05:00",
+      "lux": [
+        28.580564498901367,
+        28.615345001220703,
+        28.505348205566406
+      ],
+      "lux_median": 28.580564498901367,
+      "ratio_to_reference": 1.0045216875755891,
+      "flags": [],
+      "duty_reapplied_from": null,
+      "anchor_state": {
+        "brightness": "8",
+        "duty_cycle": "98"
+      },
+      "restored_state": {
+        "brightness": "5",
+        "duty_cycle": "98"
+      },
+      "readback": {
+        "fb_w": 1920,
+        "fb_h": 1080,
+        "left": [
+          0,
+          0,
+          255
+        ],
+        "right": [
+          0,
+          0,
+          255
+        ]
+      },
+      "readback_fixes": [],
+      "capture_attempts": 1
+    },
+    {
+      "label": "ANCHOR_02",
+      "after_step": "K_F3_night_text_end",
+      "time": "2026-10-05T10:20:09.192-05:00",
+      "lux": [
+        28.659879684448242,
+        28.728178024291992,
+        28.603456497192383
+      ],
+      "lux_median": 28.659879684448242,
+      "ratio_to_reference": 1.007309380031383,
+      "flags": [],
+      "duty_reapplied_from": null,
+      "anchor_state": {
+        "brightness": "8",
+        "duty_cycle": "98"
+      },
+      "restored_state": {
+        "brightness": "8",
+        "duty_cycle": "98"
+      },
+      "readback": {
+        "fb_w": 1920,
+        "fb_h": 1080,
+        "left": [
+          0,
+          0,
+          255
+        ],
+        "right": [
+          0,
+          0,
+          255
+        ]
+      },
+      "readback_fixes": [],
+      "capture_attempts": 1
+    },
+    {
+      "label": "ANCHOR_03",
+      "after_step": "K_F2_orb_end",
+      "time": "2026-10-05T10:20:54.277-05:00",
+      "lux": [
+        28.64084815979004,
+        28.798887252807617,
+        28.811580657958984
+      ],
+      "lux_median": 28.798887252807617,
+      "ratio_to_reference": 1.012195081892153,
+      "flags": [],
+      "duty_reapplied_from": null,
+      "anchor_state": {
+        "brightness": "8",
+        "duty_cycle": "98"
+      },
+      "restored_state": {
+        "brightness": "8",
+        "duty_cycle": "98"
+      },
+      "readback": {
+        "fb_w": 1920,
+        "fb_h": 1080,
+        "left": [
+          0,
+          0,
+          255
+        ],
+        "right": [
+          0,
+          0,
+          255
+        ]
+      },
+      "readback_fixes": [],
+      "capture_attempts": 1
+    },
+    {
+      "label": "ANCHOR_04",
+      "after_step": "K_F1_morning_text_end",
+      "time": "2026-10-05T10:21:31.780-05:00",
+      "lux": [
+        28.722183227539062,
+        28.8989200592041,
+        29.004484176635742
+      ],
+      "lux_median": 28.8989200592041,
+      "ratio_to_reference": 1.0157109369935517,
+      "flags": [],
+      "duty_reapplied_from": null,
+      "anchor_state": {
+        "brightness": "8",
+        "duty_cycle": "98"
+      },
+      "restored_state": {
+        "brightness": "8",
+        "duty_cycle": "98"
+      },
+      "readback": {
+        "fb_w": 1920,
+        "fb_h": 1080,
+        "left": [
+          0,
+          0,
+          255
+        ],
+        "right": [
+          0,
+          0,
+          255
+        ]
+      },
+      "readback_fixes": [],
+      "capture_attempts": 1
+    }
+  ],
+  "captures": [
+    {
+      "label": "K_F4_red_orb_start",
+      "rgb": [
+        0,
+        0,
+        0
+      ],
+      "level": 5,
+      "duty": 98,
+      "flags": [],
+      "role": "black_start",
+      "block_index": 0,
+      "frame": "F4_red_orb",
+      "acquisition_order": 1
+    },
+    {
+      "label": "F4_red_orb",
+      "rgb": [
+        255,
+        0,
+        0
+      ],
+      "level": 5,
+      "duty": 98,
+      "flags": [],
+      "role": "frame",
+      "block_index": 0,
+      "frame": "F4_red_orb",
+      "acquisition_order": 2
+    },
+    {
+      "label": "F4_red_orb_U064-000-000",
+      "rgb": [
+        64,
+        0,
+        0
+      ],
+      "level": 5,
+      "duty": 98,
+      "flags": [],
+      "role": "reference",
+      "block_index": 0,
+      "frame": "F4_red_orb",
+      "acquisition_order": 3
+    },
+    {
+      "label": "F4_red_orb_U255-000-000",
+      "rgb": [
+        255,
+        0,
+        0
+      ],
+      "level": 5,
+      "duty": 98,
+      "flags": [],
+      "role": "reference",
+      "block_index": 0,
+      "frame": "F4_red_orb",
+      "acquisition_order": 4
+    },
+    {
+      "label": "F4_red_orb_U192-000-000",
+      "rgb": [
+        192,
+        0,
+        0
+      ],
+      "level": 5,
+      "duty": 98,
+      "flags": [],
+      "role": "reference",
+      "block_index": 0,
+      "frame": "F4_red_orb",
+      "acquisition_order": 5
+    },
+    {
+      "label": "F4_red_orb_U128-000-000",
+      "rgb": [
+        128,
+        0,
+        0
+      ],
+      "level": 5,
+      "duty": 98,
+      "flags": [],
+      "role": "reference",
+      "block_index": 0,
+      "frame": "F4_red_orb",
+      "acquisition_order": 6
+    },
+    {
+      "label": "K_F4_red_orb_end",
+      "rgb": [
+        0,
+        0,
+        0
+      ],
+      "level": 5,
+      "duty": 98,
+      "flags": [],
+      "role": "black_end",
+      "block_index": 0,
+      "frame": "F4_red_orb",
+      "acquisition_order": 7
+    },
+    {
+      "label": "K_F3_night_text_start",
+      "rgb": [
+        0,
+        0,
+        0
+      ],
+      "level": 5,
+      "duty": 98,
+      "flags": [],
+      "role": "black_start",
+      "block_index": 1,
+      "frame": "F3_night_text",
+      "acquisition_order": 8
+    },
+    {
+      "label": "F3_night_text",
+      "rgb": [
+        255,
+        92,
+        56
+      ],
+      "level": 5,
+      "duty": 98,
+      "flags": [],
+      "role": "frame",
+      "block_index": 1,
+      "frame": "F3_night_text",
+      "acquisition_order": 9
+    },
+    {
+      "label": "F3_night_text_U020-005-007",
+      "rgb": [
+        20,
+        5,
+        7
+      ],
+      "level": 5,
+      "duty": 98,
+      "flags": [],
+      "role": "reference",
+      "block_index": 1,
+      "frame": "F3_night_text",
+      "acquisition_order": 10
+    },
+    {
+      "label": "F3_night_text_U255-092-056",
+      "rgb": [
+        255,
+        92,
+        56
+      ],
+      "level": 5,
+      "duty": 98,
+      "flags": [],
+      "role": "reference",
+      "block_index": 1,
+      "frame": "F3_night_text",
+      "acquisition_order": 11
+    },
+    {
+      "label": "K_F3_night_text_end",
+      "rgb": [
+        0,
+        0,
+        0
+      ],
+      "level": 5,
+      "duty": 98,
+      "flags": [],
+      "role": "black_end",
+      "block_index": 1,
+      "frame": "F3_night_text",
+      "acquisition_order": 12
+    },
+    {
+      "label": "K_F2_orb_start",
+      "rgb": [
+        0,
+        0,
+        0
+      ],
+      "level": 8,
+      "duty": 98,
+      "flags": [],
+      "role": "black_start",
+      "block_index": 2,
+      "frame": "F2_orb",
+      "acquisition_order": 13
+    },
+    {
+      "label": "F2_orb",
+      "rgb": [
+        0,
+        0,
+        255
+      ],
+      "level": 8,
+      "duty": 98,
+      "flags": [],
+      "role": "frame",
+      "block_index": 2,
+      "frame": "F2_orb",
+      "acquisition_order": 14
+    },
+    {
+      "label": "F2_orb_U000-000-064",
+      "rgb": [
+        0,
+        0,
+        64
+      ],
+      "level": 8,
+      "duty": 98,
+      "flags": [],
+      "role": "reference",
+      "block_index": 2,
+      "frame": "F2_orb",
+      "acquisition_order": 15
+    },
+    {
+      "label": "F2_orb_U000-000-255",
+      "rgb": [
+        0,
+        0,
+        255
+      ],
+      "level": 8,
+      "duty": 98,
+      "flags": [],
+      "role": "reference",
+      "block_index": 2,
+      "frame": "F2_orb",
+      "acquisition_order": 16
+    },
+    {
+      "label": "F2_orb_U000-000-192",
+      "rgb": [
+        0,
+        0,
+        192
+      ],
+      "level": 8,
+      "duty": 98,
+      "flags": [],
+      "role": "reference",
+      "block_index": 2,
+      "frame": "F2_orb",
+      "acquisition_order": 17
+    },
+    {
+      "label": "F2_orb_U000-000-128",
+      "rgb": [
+        0,
+        0,
+        128
+      ],
+      "level": 8,
+      "duty": 98,
+      "flags": [],
+      "role": "reference",
+      "block_index": 2,
+      "frame": "F2_orb",
+      "acquisition_order": 18
+    },
+    {
+      "label": "K_F2_orb_end",
+      "rgb": [
+        0,
+        0,
+        0
+      ],
+      "level": 8,
+      "duty": 98,
+      "flags": [],
+      "role": "black_end",
+      "block_index": 2,
+      "frame": "F2_orb",
+      "acquisition_order": 19
+    },
+    {
+      "label": "K_F1_morning_text_start",
+      "rgb": [
+        0,
+        0,
+        0
+      ],
+      "level": 8,
+      "duty": 98,
+      "flags": [],
+      "role": "black_start",
+      "block_index": 3,
+      "frame": "F1_morning_text",
+      "acquisition_order": 20
+    },
+    {
+      "label": "F1_morning_text",
+      "rgb": [
+        0,
+        0,
+        255
+      ],
+      "level": 8,
+      "duty": 98,
+      "flags": [],
+      "role": "frame",
+      "block_index": 3,
+      "frame": "F1_morning_text",
+      "acquisition_order": 21
+    },
+    {
+      "label": "F1_morning_text_U000-000-255",
+      "rgb": [
+        0,
+        0,
+        255
+      ],
+      "level": 8,
+      "duty": 98,
+      "flags": [],
+      "role": "reference",
+      "block_index": 3,
+      "frame": "F1_morning_text",
+      "acquisition_order": 22
+    },
+    {
+      "label": "K_F1_morning_text_end",
+      "rgb": [
+        0,
+        0,
+        0
+      ],
+      "level": 8,
+      "duty": 98,
+      "flags": [],
+      "role": "black_end",
+      "block_index": 3,
+      "frame": "F1_morning_text",
+      "acquisition_order": 23
+    }
+  ]
+}

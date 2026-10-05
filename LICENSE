@@ -2,13 +2,12 @@ MIT License
 
 Copyright (c) 2026 Washington University in St. Louis
 
-The MIT License below applies to everything in this repository (code, data,
-documentation, and the 3D model in `3d/`) except as listed.
+This repository uses more than one license.
 
+- The MIT License below applies to this project except as listed.
 - The VITURE Glasses SDK is not included and is not licensed by this project.
-  It is copyright VITURE Inc. and is governed by VITURE's own terms.
-- The CIE reference tables in `analysis/uprtek/src/uprtek/data/cie/` remain
-  under their original terms; see `ATTRIBUTION.md` in that folder.
+- The CIE reference tables in `analysis/uprtek/src/uprtek/data/cie/` remain under
+  their original terms; see `ATTRIBUTION.md` in that folder.
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal

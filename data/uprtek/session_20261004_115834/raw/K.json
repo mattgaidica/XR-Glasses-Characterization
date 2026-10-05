@@ -1,0 +1,181 @@
+{
+  "sequence": "color_set",
+  "step_index": 9,
+  "rgb": [
+    0,
+    0,
+    0
+  ],
+  "eye": "both",
+  "requested_brightness": null,
+  "brightness_source": "unchanged",
+  "white_brightness_capped": false,
+  "requested_duty_cycle": 98,
+  "duty_reapplied_from": null,
+  "host_state": {
+    "b": "0",
+    "backend": "viture 2.4.0",
+    "brightness": "8",
+    "calibration": "uprtek_v001",
+    "device": "Luma Ultra",
+    "display_mode": "49",
+    "duty_cycle": "98",
+    "eye": "both",
+    "film": "0.000000",
+    "g": "0",
+    "label": "K",
+    "r": "0",
+    "wear": "-1"
+  },
+  "host_frame": 204333,
+  "readback": {
+    "fb_w": 1920,
+    "fb_h": 1080,
+    "left": [
+      0,
+      0,
+      0
+    ],
+    "right": [
+      0,
+      0,
+      0
+    ]
+  },
+  "readback_ok": true,
+  "readback_fixes": [],
+  "settle_s": 1.0,
+  "auto_exposure": true,
+  "exposure_ms_requested": null,
+  "max_exposure_ms": 500,
+  "priming": [
+    {
+      "n": 0,
+      "t_start": "2026-10-04T12:00:07.446-05:00",
+      "light_strength": 2,
+      "exposure_time_raw": 6000.0,
+      "lux": 0.2357107698917389,
+      "lambda_peak_nm": 759.0,
+      "kept_as_rep0": false
+    }
+  ],
+  "rejected": [],
+  "repeats": [
+    {
+      "rep": 0,
+      "t_start": "2026-10-04T12:00:07.995-05:00",
+      "t_end": "2026-10-04T12:00:08.719-05:00",
+      "auto_exposure": true,
+      "exposure_ms_requested": null,
+      "light_strength": 2,
+      "light_strength_name": "out_of_range",
+      "temperature_c": 43.75,
+      "instrument": {
+        "cie1931_x": 0.3522981107234955,
+        "cie1931_y": 0.33010220527648926,
+        "cie_X": 0.06002684310078621,
+        "cie_Y": 0.05624496191740036,
+        "cie_Z": 0.054114699363708496,
+        "cie1976_u_prime": 0.2252318412065506,
+        "cie1976_v_prime": 0.47484344244003296,
+        "lux": 0.05624496191740036,
+        "cct_K": 4605.0,
+        "lux_scotopic": 0.12175427377223969,
+        "lux_s_p_ratio": 2.1647465229034424,
+        "purity": 0.047292981296777725,
+        "lambda_peak_nm": 778.0,
+        "lambda_dominant_nm": 690.0,
+        "lambda_peak_value": 0.0041985041461884975,
+        "ppf": 0.0011614987161010504,
+        "exposure_time_raw": 500000.0
+      },
+      "range_cause": "low",
+      "attempts": 1,
+      "no_display_light": false,
+      "wear": "-1",
+      "from_priming": false,
+      "outlier": false
+    },
+    {
+      "rep": 1,
+      "t_start": "2026-10-04T12:00:08.746-05:00",
+      "t_end": "2026-10-04T12:00:09.471-05:00",
+      "auto_exposure": true,
+      "exposure_ms_requested": null,
+      "light_strength": 2,
+      "light_strength_name": "out_of_range",
+      "temperature_c": 43.6875,
+      "instrument": {
+        "cie1931_x": 0.30463719367980957,
+        "cie1931_y": 0.3490550220012665,
+        "cie_X": 0.05344213545322418,
+        "cie_Y": 0.06123429909348488,
+        "cie_Z": 0.06075235828757286,
+        "cie1976_u_prime": 0.1852070838212967,
+        "cie1976_v_prime": 0.47747546434402466,
+        "lux": 0.06123429909348488,
+        "cct_K": 6756.0,
+        "lux_scotopic": 0.15419043600559235,
+        "lux_s_p_ratio": 2.518052816390991,
+        "purity": 0.08851233124732971,
+        "lambda_peak_nm": 772.0,
+        "lambda_dominant_nm": 499.0,
+        "lambda_peak_value": 0.0033897808752954006,
+        "ppf": 0.0011954058427363634,
+        "exposure_time_raw": 500000.0
+      },
+      "range_cause": "low",
+      "attempts": 1,
+      "no_display_light": false,
+      "wear": "-1",
+      "from_priming": false,
+      "outlier": false
+    },
+    {
+      "rep": 2,
+      "t_start": "2026-10-04T12:00:09.496-05:00",
+      "t_end": "2026-10-04T12:00:10.219-05:00",
+      "auto_exposure": true,
+      "exposure_ms_requested": null,
+      "light_strength": 2,
+      "light_strength_name": "out_of_range",
+      "temperature_c": 43.75,
+      "instrument": {
+        "cie1931_x": 0.330404669046402,
+        "cie1931_y": 0.27570000290870667,
+        "cie_X": 0.062080323696136475,
+        "cie_Y": 0.05180176720023155,
+        "cie_Z": 0.07400968670845032,
+        "cie1976_u_prime": 0.2340146005153656,
+        "cie1976_v_prime": 0.4393555223941803,
+        "lux": 0.05180176720023155,
+        "cct_K": 5622.0,
+        "lux_scotopic": 0.1334751695394516,
+        "lux_s_p_ratio": 2.5766959190368652,
+        "purity": 0.15812933444976807,
+        "lambda_peak_nm": 706.0,
+        "lambda_dominant_nm": 380.0,
+        "lambda_peak_value": 0.0036601319443434477,
+        "ppf": 0.0012536998838186264,
+        "exposure_time_raw": 500000.0
+      },
+      "range_cause": "low",
+      "attempts": 1,
+      "no_display_light": false,
+      "wear": "-1",
+      "from_priming": false,
+      "outlier": false
+    }
+  ],
+  "flags": [
+    "OUT_OF_RANGE"
+  ],
+  "out_of_range_causes": [
+    "low"
+  ],
+  "outlier_reps": [],
+  "capture_attempts": 1,
+  "discarded_attempts": [],
+  "label": "K",
+  "spectrum_units_raw": "instrument (mkusb mk_GetSpectrum)"
+}

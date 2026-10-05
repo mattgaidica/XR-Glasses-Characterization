@@ -1,0 +1,1237 @@
+{
+  "schema": "chronolume-uprtek-session/1",
+  "status": "complete",
+  "started": "2026-10-04T11:58:34.257-05:00",
+  "finished": "2026-10-04T12:04:28.385-05:00",
+  "package_version": "0.1.0",
+  "python": "3.12.10 32bit",
+  "meter": {
+    "name": "0690815613",
+    "optical_sn": "21B00584",
+    "model": "MK350X",
+    "hw_version": "HWVer:1.1.0CE",
+    "fw_version": "FWVer:1.1.1.B4",
+    "wavelength_start_nm": 380,
+    "wavelength_end_nm": 780,
+    "library_version": "0x10204",
+    "library_dir": "C:\\Program Files (x86)\\uSpectrum\\Library\\Example\\VC\\dll_test_vc2008\\Debug"
+  },
+  "host": {
+    "backend": "viture 2.4.0",
+    "device": "Luma Ultra",
+    "firmware": "12.0.01.101_20260605",
+    "product_id": "4356",
+    "initial_brightness": 8,
+    "initial_duty_cycle": "90",
+    "session_log": "C:/Users/Matt/Documents/Software/Chronolume\\data\\sessions\\session_20261004_115834.jsonl",
+    "restored_brightness": "8",
+    "restored_duty_cycle": "90"
+  },
+  "options": {
+    "sequence": "color_set",
+    "eye": "both",
+    "repeats": 3,
+    "settle_s": 1.0,
+    "brightness_settle_s": 3.0,
+    "auto_exposure": true,
+    "exposure_ms": 50,
+    "max_exposure_ms": 500,
+    "priming": 1,
+    "max_retries": 5,
+    "retry_wait_s": 2.0,
+    "capture_retries": 3,
+    "anchor_every": 5,
+    "duty": "max",
+    "duty_sweep": [
+      0,
+      20,
+      40,
+      60,
+      80,
+      100
+    ],
+    "duty_fallback": [
+      98,
+      42,
+      30
+    ],
+    "base_brightness": 8,
+    "brightness_levels": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    ],
+    "brightness_change_rgb": [
+      0,
+      0,
+      0
+    ],
+    "manual_brightness": false,
+    "calibration_version": "uprtek_v001",
+    "skip_dark": false,
+    "warmup_s": 0.0,
+    "allow_mock": false,
+    "notes": "primary session 2/3; Wearer Detection disabled; reseated",
+    "extra": {}
+  },
+  "dark": {
+    "time": "2026-10-04T11:58:58.017-05:00",
+    "method": "mk_Msr_Dark (capped sensor)",
+    "duration_s": 4.94,
+    "display_rgb": [
+      0,
+      0,
+      255
+    ]
+  },
+  "warmup": null,
+  "duty": {
+    "requested": 98,
+    "reported": "98",
+    "time": "2026-10-04T11:59:31.528-05:00"
+  },
+  "duty_acceptance": {
+    "time": "2026-10-04T11:58:34.290-05:00",
+    "checks": [
+      {
+        "set": "standard",
+        "requested": 0,
+        "reported": "90",
+        "ok": false,
+        "error": "set_duty_cycle failed: set_duty_cycle failed: -1"
+      },
+      {
+        "set": "standard",
+        "requested": 20,
+        "reported": "20",
+        "ok": true,
+        "error": null
+      },
+      {
+        "set": "standard",
+        "requested": 40,
+        "reported": "40",
+        "ok": true,
+        "error": null
+      },
+      {
+        "set": "standard",
+        "requested": 60,
+        "reported": "60",
+        "ok": true,
+        "error": null
+      },
+      {
+        "set": "standard",
+        "requested": 80,
+        "reported": "80",
+        "ok": true,
+        "error": null
+      },
+      {
+        "set": "standard",
+        "requested": 100,
+        "reported": "80",
+        "ok": false,
+        "error": "set_duty_cycle failed: set_duty_cycle failed: -1"
+      },
+      {
+        "set": "fallback",
+        "requested": 98,
+        "reported": "98",
+        "ok": true,
+        "error": null
+      },
+      {
+        "set": "fallback",
+        "requested": 42,
+        "reported": "42",
+        "ok": true,
+        "error": null
+      },
+      {
+        "set": "fallback",
+        "requested": 30,
+        "reported": "30",
+        "ok": true,
+        "error": null
+      }
+    ],
+    "set": "fallback",
+    "duties": [
+      98,
+      42,
+      30
+    ]
+  },
+  "anchors": [
+    {
+      "label": "ANCHOR_00",
+      "after_step": null,
+      "time": "2026-10-04T11:59:36.430-05:00",
+      "lux": [
+        29.216556549072266,
+        29.20631980895996,
+        29.109994888305664
+      ],
+      "lux_median": 29.20631980895996,
+      "ratio_to_reference": null,
+      "flags": [],
+      "duty_reapplied_from": null,
+      "anchor_state": {
+        "brightness": "8",
+        "duty_cycle": "98"
+      },
+      "restored_state": null,
+      "readback": {
+        "fb_w": 1920,
+        "fb_h": 1080,
+        "left": [
+          0,
+          0,
+          255
+        ],
+        "right": [
+          0,
+          0,
+          255
+        ]
+      },
+      "readback_fixes": [],
+      "capture_attempts": 1
+    },
+    {
+      "label": "ANCHOR_01",
+      "after_step": "B192",
+      "time": "2026-10-04T11:59:54.380-05:00",
+      "lux": [
+        29.2419490814209,
+        29.274890899658203,
+        29.170875549316406
+      ],
+      "lux_median": 29.2419490814209,
+      "ratio_to_reference": 1.0012199165349824,
+      "flags": [],
+      "duty_reapplied_from": null,
+      "anchor_state": {
+        "brightness": "8",
+        "duty_cycle": "98"
+      },
+      "restored_state": null,
+      "readback": {
+        "fb_w": 1920,
+        "fb_h": 1080,
+        "left": [
+          0,
+          0,
+          255
+        ],
+        "right": [
+          0,
+          0,
+          255
+        ]
+      },
+      "readback_fixes": [],
+      "capture_attempts": 1
+    },
+    {
+      "label": "ANCHOR_02",
+      "after_step": "K",
+      "time": "2026-10-04T12:00:12.020-05:00",
+      "lux": [
+        29.162715911865234,
+        28.985925674438477,
+        29.260099411010742
+      ],
+      "lux_median": 29.162715911865234,
+      "ratio_to_reference": 0.9985070389771823,
+      "flags": [],
+      "duty_reapplied_from": null,
+      "anchor_state": {
+        "brightness": "8",
+        "duty_cycle": "98"
+      },
+      "restored_state": null,
+      "readback": {
+        "fb_w": 1920,
+        "fb_h": 1080,
+        "left": [
+          0,
+          0,
+          255
+        ],
+        "right": [
+          0,
+          0,
+          255
+        ]
+      },
+      "readback_fixes": [],
+      "capture_attempts": 1
+    },
+    {
+      "label": "ANCHOR_03",
+      "after_step": "G128",
+      "time": "2026-10-04T12:00:27.056-05:00",
+      "lux": [
+        29.071029663085938,
+        29.193647384643555,
+        29.142807006835938
+      ],
+      "lux_median": 29.142807006835938,
+      "ratio_to_reference": 0.9978253746949474,
+      "flags": [],
+      "duty_reapplied_from": null,
+      "anchor_state": {
+        "brightness": "8",
+        "duty_cycle": "98"
+      },
+      "restored_state": null,
+      "readback": {
+        "fb_w": 1920,
+        "fb_h": 1080,
+        "left": [
+          0,
+          0,
+          255
+        ],
+        "right": [
+          0,
+          0,
+          255
+        ]
+      },
+      "readback_fixes": [],
+      "capture_attempts": 1
+    },
+    {
+      "label": "ANCHOR_04",
+      "after_step": "R255_br8",
+      "time": "2026-10-04T12:00:49.221-05:00",
+      "lux": [
+        29.155033111572266,
+        29.07253646850586,
+        28.999187469482422
+      ],
+      "lux_median": 29.07253646850586,
+      "ratio_to_reference": 0.9954193701455991,
+      "flags": [],
+      "duty_reapplied_from": null,
+      "anchor_state": {
+        "brightness": "8",
+        "duty_cycle": "98"
+      },
+      "restored_state": null,
+      "readback": {
+        "fb_w": 1920,
+        "fb_h": 1080,
+        "left": [
+          0,
+          0,
+          255
+        ],
+        "right": [
+          0,
+          0,
+          255
+        ]
+      },
+      "readback_fixes": [],
+      "capture_attempts": 1
+    },
+    {
+      "label": "ANCHOR_05",
+      "after_step": "B255_br7",
+      "time": "2026-10-04T12:01:07.352-05:00",
+      "lux": [
+        29.233333587646484,
+        29.017963409423828,
+        29.123918533325195
+      ],
+      "lux_median": 29.123918533325195,
+      "ratio_to_reference": 0.9971786491357434,
+      "flags": [],
+      "duty_reapplied_from": null,
+      "anchor_state": {
+        "brightness": "8",
+        "duty_cycle": "98"
+      },
+      "restored_state": null,
+      "readback": {
+        "fb_w": 1920,
+        "fb_h": 1080,
+        "left": [
+          0,
+          0,
+          255
+        ],
+        "right": [
+          0,
+          0,
+          255
+        ]
+      },
+      "readback_fixes": [],
+      "capture_attempts": 1
+    },
+    {
+      "label": "ANCHOR_06",
+      "after_step": "W255_br6",
+      "time": "2026-10-04T12:01:30.038-05:00",
+      "lux": [
+        29.213272094726562,
+        29.331480026245117,
+        29.36675262451172
+      ],
+      "lux_median": 29.331480026245117,
+      "ratio_to_reference": 1.0042853813182844,
+      "flags": [],
+      "duty_reapplied_from": null,
+      "anchor_state": {
+        "brightness": "8",
+        "duty_cycle": "98"
+      },
+      "restored_state": null,
+      "readback": {
+        "fb_w": 1920,
+        "fb_h": 1080,
+        "left": [
+          0,
+          0,
+          255
+        ],
+        "right": [
+          0,
+          0,
+          255
+        ]
+      },
+      "readback_fixes": [],
+      "capture_attempts": 1
+    },
+    {
+      "label": "ANCHOR_07",
+      "after_step": "R255_br4",
+      "time": "2026-10-04T12:01:55.473-05:00",
+      "lux": [
+        29.068151473999023,
+        29.11162757873535,
+        29.022815704345703
+      ],
+      "lux_median": 29.068151473999023,
+      "ratio_to_reference": 0.9952692315956032,
+      "flags": [],
+      "duty_reapplied_from": null,
+      "anchor_state": {
+        "brightness": "8",
+        "duty_cycle": "98"
+      },
+      "restored_state": null,
+      "readback": {
+        "fb_w": 1920,
+        "fb_h": 1080,
+        "left": [
+          0,
+          0,
+          255
+        ],
+        "right": [
+          0,
+          0,
+          255
+        ]
+      },
+      "readback_fixes": [],
+      "capture_attempts": 1
+    },
+    {
+      "label": "ANCHOR_08",
+      "after_step": "G255_br3",
+      "time": "2026-10-04T12:02:22.689-05:00",
+      "lux": [
+        29.042604446411133,
+        28.785051345825195,
+        28.903398513793945
+      ],
+      "lux_median": 28.903398513793945,
+      "ratio_to_reference": 0.9896282278237231,
+      "flags": [],
+      "duty_reapplied_from": null,
+      "anchor_state": {
+        "brightness": "8",
+        "duty_cycle": "98"
+      },
+      "restored_state": null,
+      "readback": {
+        "fb_w": 1920,
+        "fb_h": 1080,
+        "left": [
+          0,
+          0,
+          255
+        ],
+        "right": [
+          0,
+          0,
+          255
+        ]
+      },
+      "readback_fixes": [],
+      "capture_attempts": 1
+    },
+    {
+      "label": "ANCHOR_09",
+      "after_step": "B255_br2",
+      "time": "2026-10-04T12:02:51.109-05:00",
+      "lux": [
+        28.943674087524414,
+        28.84751319885254,
+        29.036291122436523
+      ],
+      "lux_median": 28.943674087524414,
+      "ratio_to_reference": 0.9910072298340384,
+      "flags": [],
+      "duty_reapplied_from": null,
+      "anchor_state": {
+        "brightness": "8",
+        "duty_cycle": "98"
+      },
+      "restored_state": null,
+      "readback": {
+        "fb_w": 1920,
+        "fb_h": 1080,
+        "left": [
+          0,
+          0,
+          255
+        ],
+        "right": [
+          0,
+          0,
+          255
+        ]
+      },
+      "readback_fixes": [],
+      "capture_attempts": 1
+    },
+    {
+      "label": "ANCHOR_10",
+      "after_step": "W255_br1",
+      "time": "2026-10-04T12:03:19.228-05:00",
+      "lux": [
+        29.048192977905273,
+        29.024023056030273,
+        28.8968505859375
+      ],
+      "lux_median": 29.024023056030273,
+      "ratio_to_reference": 0.9937583114160874,
+      "flags": [],
+      "duty_reapplied_from": null,
+      "anchor_state": {
+        "brightness": "8",
+        "duty_cycle": "98"
+      },
+      "restored_state": null,
+      "readback": {
+        "fb_w": 1920,
+        "fb_h": 1080,
+        "left": [
+          0,
+          0,
+          255
+        ],
+        "right": [
+          0,
+          0,
+          255
+        ]
+      },
+      "readback_fixes": [],
+      "capture_attempts": 1
+    },
+    {
+      "label": "ANCHOR_11",
+      "after_step": "R255_d42",
+      "time": "2026-10-04T12:03:45.962-05:00",
+      "lux": [
+        28.93719482421875,
+        28.993703842163086,
+        28.88776969909668
+      ],
+      "lux_median": 28.93719482421875,
+      "ratio_to_reference": 0.9907853852692988,
+      "flags": [],
+      "duty_reapplied_from": "42",
+      "anchor_state": {
+        "brightness": "8",
+        "duty_cycle": "98"
+      },
+      "restored_state": null,
+      "readback": {
+        "fb_w": 1920,
+        "fb_h": 1080,
+        "left": [
+          0,
+          0,
+          255
+        ],
+        "right": [
+          0,
+          0,
+          255
+        ]
+      },
+      "readback_fixes": [],
+      "capture_attempts": 1
+    },
+    {
+      "label": "ANCHOR_12",
+      "after_step": "G255_d30",
+      "time": "2026-10-04T12:04:12.265-05:00",
+      "lux": [
+        29.16399574279785,
+        29.266693115234375,
+        29.17362403869629
+      ],
+      "lux_median": 29.17362403869629,
+      "ratio_to_reference": 0.998880524130478,
+      "flags": [],
+      "duty_reapplied_from": "30",
+      "anchor_state": {
+        "brightness": "8",
+        "duty_cycle": "98"
+      },
+      "restored_state": null,
+      "readback": {
+        "fb_w": 1920,
+        "fb_h": 1080,
+        "left": [
+          0,
+          0,
+          255
+        ],
+        "right": [
+          0,
+          0,
+          255
+        ]
+      },
+      "readback_fixes": [],
+      "capture_attempts": 1
+    },
+    {
+      "label": "ANCHOR_13",
+      "after_step": "W255_br7_d30",
+      "time": "2026-10-04T12:04:28.382-05:00",
+      "lux": [
+        29.07740020751953,
+        29.050512313842773,
+        29.019372940063477
+      ],
+      "lux_median": 29.050512313842773,
+      "ratio_to_reference": 0.9946652814823527,
+      "flags": [],
+      "duty_reapplied_from": "30",
+      "anchor_state": {
+        "brightness": "8",
+        "duty_cycle": "98"
+      },
+      "restored_state": null,
+      "readback": {
+        "fb_w": 1920,
+        "fb_h": 1080,
+        "left": [
+          0,
+          0,
+          255
+        ],
+        "right": [
+          0,
+          0,
+          255
+        ]
+      },
+      "readback_fixes": [],
+      "capture_attempts": 1
+    }
+  ],
+  "block_reruns": [],
+  "captures": [
+    {
+      "label": "R255",
+      "rgb": [
+        255,
+        0,
+        0
+      ],
+      "flags": []
+    },
+    {
+      "label": "G255",
+      "rgb": [
+        0,
+        255,
+        0
+      ],
+      "flags": []
+    },
+    {
+      "label": "B255",
+      "rgb": [
+        0,
+        0,
+        255
+      ],
+      "flags": []
+    },
+    {
+      "label": "W255",
+      "rgb": [
+        255,
+        255,
+        255
+      ],
+      "flags": []
+    },
+    {
+      "label": "B192",
+      "rgb": [
+        0,
+        0,
+        192
+      ],
+      "flags": []
+    },
+    {
+      "label": "B128",
+      "rgb": [
+        0,
+        0,
+        128
+      ],
+      "flags": []
+    },
+    {
+      "label": "B064",
+      "rgb": [
+        0,
+        0,
+        64
+      ],
+      "flags": []
+    },
+    {
+      "label": "B032",
+      "rgb": [
+        0,
+        0,
+        32
+      ],
+      "flags": []
+    },
+    {
+      "label": "B016",
+      "rgb": [
+        0,
+        0,
+        16
+      ],
+      "flags": [
+        "OUT_OF_RANGE"
+      ]
+    },
+    {
+      "label": "K",
+      "rgb": [
+        0,
+        0,
+        0
+      ],
+      "flags": [
+        "OUT_OF_RANGE"
+      ]
+    },
+    {
+      "label": "R192",
+      "rgb": [
+        192,
+        0,
+        0
+      ],
+      "flags": []
+    },
+    {
+      "label": "R128",
+      "rgb": [
+        128,
+        0,
+        0
+      ],
+      "flags": []
+    },
+    {
+      "label": "R064",
+      "rgb": [
+        64,
+        0,
+        0
+      ],
+      "flags": []
+    },
+    {
+      "label": "G192",
+      "rgb": [
+        0,
+        192,
+        0
+      ],
+      "flags": []
+    },
+    {
+      "label": "G128",
+      "rgb": [
+        0,
+        128,
+        0
+      ],
+      "flags": []
+    },
+    {
+      "label": "G064",
+      "rgb": [
+        0,
+        64,
+        0
+      ],
+      "flags": []
+    },
+    {
+      "label": "W192",
+      "rgb": [
+        192,
+        192,
+        192
+      ],
+      "flags": []
+    },
+    {
+      "label": "W128",
+      "rgb": [
+        128,
+        128,
+        128
+      ],
+      "flags": []
+    },
+    {
+      "label": "W064",
+      "rgb": [
+        64,
+        64,
+        64
+      ],
+      "flags": []
+    },
+    {
+      "label": "R255_br8",
+      "rgb": [
+        255,
+        0,
+        0
+      ],
+      "flags": []
+    },
+    {
+      "label": "G255_br8",
+      "rgb": [
+        0,
+        255,
+        0
+      ],
+      "flags": []
+    },
+    {
+      "label": "B255_br8",
+      "rgb": [
+        0,
+        0,
+        255
+      ],
+      "flags": []
+    },
+    {
+      "label": "R255_br7",
+      "rgb": [
+        255,
+        0,
+        0
+      ],
+      "flags": []
+    },
+    {
+      "label": "G255_br7",
+      "rgb": [
+        0,
+        255,
+        0
+      ],
+      "flags": []
+    },
+    {
+      "label": "B255_br7",
+      "rgb": [
+        0,
+        0,
+        255
+      ],
+      "flags": []
+    },
+    {
+      "label": "W255_br7",
+      "rgb": [
+        255,
+        255,
+        255
+      ],
+      "flags": []
+    },
+    {
+      "label": "R255_br6",
+      "rgb": [
+        255,
+        0,
+        0
+      ],
+      "flags": []
+    },
+    {
+      "label": "G255_br6",
+      "rgb": [
+        0,
+        255,
+        0
+      ],
+      "flags": []
+    },
+    {
+      "label": "B255_br6",
+      "rgb": [
+        0,
+        0,
+        255
+      ],
+      "flags": []
+    },
+    {
+      "label": "W255_br6",
+      "rgb": [
+        255,
+        255,
+        255
+      ],
+      "flags": []
+    },
+    {
+      "label": "R255_br5",
+      "rgb": [
+        255,
+        0,
+        0
+      ],
+      "flags": []
+    },
+    {
+      "label": "G255_br5",
+      "rgb": [
+        0,
+        255,
+        0
+      ],
+      "flags": []
+    },
+    {
+      "label": "B255_br5",
+      "rgb": [
+        0,
+        0,
+        255
+      ],
+      "flags": []
+    },
+    {
+      "label": "W255_br5",
+      "rgb": [
+        255,
+        255,
+        255
+      ],
+      "flags": []
+    },
+    {
+      "label": "R255_br4",
+      "rgb": [
+        255,
+        0,
+        0
+      ],
+      "flags": []
+    },
+    {
+      "label": "G255_br4",
+      "rgb": [
+        0,
+        255,
+        0
+      ],
+      "flags": []
+    },
+    {
+      "label": "B255_br4",
+      "rgb": [
+        0,
+        0,
+        255
+      ],
+      "flags": []
+    },
+    {
+      "label": "W255_br4",
+      "rgb": [
+        255,
+        255,
+        255
+      ],
+      "flags": []
+    },
+    {
+      "label": "R255_br3",
+      "rgb": [
+        255,
+        0,
+        0
+      ],
+      "flags": []
+    },
+    {
+      "label": "G255_br3",
+      "rgb": [
+        0,
+        255,
+        0
+      ],
+      "flags": []
+    },
+    {
+      "label": "B255_br3",
+      "rgb": [
+        0,
+        0,
+        255
+      ],
+      "flags": []
+    },
+    {
+      "label": "W255_br3",
+      "rgb": [
+        255,
+        255,
+        255
+      ],
+      "flags": []
+    },
+    {
+      "label": "R255_br2",
+      "rgb": [
+        255,
+        0,
+        0
+      ],
+      "flags": []
+    },
+    {
+      "label": "G255_br2",
+      "rgb": [
+        0,
+        255,
+        0
+      ],
+      "flags": []
+    },
+    {
+      "label": "B255_br2",
+      "rgb": [
+        0,
+        0,
+        255
+      ],
+      "flags": []
+    },
+    {
+      "label": "W255_br2",
+      "rgb": [
+        255,
+        255,
+        255
+      ],
+      "flags": []
+    },
+    {
+      "label": "R255_br1",
+      "rgb": [
+        255,
+        0,
+        0
+      ],
+      "flags": []
+    },
+    {
+      "label": "G255_br1",
+      "rgb": [
+        0,
+        255,
+        0
+      ],
+      "flags": []
+    },
+    {
+      "label": "B255_br1",
+      "rgb": [
+        0,
+        0,
+        255
+      ],
+      "flags": []
+    },
+    {
+      "label": "W255_br1",
+      "rgb": [
+        255,
+        255,
+        255
+      ],
+      "flags": []
+    },
+    {
+      "label": "R255_br0",
+      "rgb": [
+        255,
+        0,
+        0
+      ],
+      "flags": []
+    },
+    {
+      "label": "G255_br0",
+      "rgb": [
+        0,
+        255,
+        0
+      ],
+      "flags": []
+    },
+    {
+      "label": "B255_br0",
+      "rgb": [
+        0,
+        0,
+        255
+      ],
+      "flags": []
+    },
+    {
+      "label": "W255_br0",
+      "rgb": [
+        255,
+        255,
+        255
+      ],
+      "flags": []
+    },
+    {
+      "label": "R255_d42",
+      "rgb": [
+        255,
+        0,
+        0
+      ],
+      "flags": []
+    },
+    {
+      "label": "G255_d42",
+      "rgb": [
+        0,
+        255,
+        0
+      ],
+      "flags": []
+    },
+    {
+      "label": "B255_d42",
+      "rgb": [
+        0,
+        0,
+        255
+      ],
+      "flags": []
+    },
+    {
+      "label": "W255_br7_d42",
+      "rgb": [
+        255,
+        255,
+        255
+      ],
+      "flags": []
+    },
+    {
+      "label": "R255_d30",
+      "rgb": [
+        255,
+        0,
+        0
+      ],
+      "flags": []
+    },
+    {
+      "label": "G255_d30",
+      "rgb": [
+        0,
+        255,
+        0
+      ],
+      "flags": []
+    },
+    {
+      "label": "B255_d30",
+      "rgb": [
+        0,
+        0,
+        255
+      ],
+      "flags": []
+    },
+    {
+      "label": "W255_br7_d30",
+      "rgb": [
+        255,
+        255,
+        255
+      ],
+      "flags": []
+    }
+  ],
+  "meter_max_exposure_ms": 500,
+  "base_brightness": {
+    "requested": 8,
+    "reported": "8",
+    "time": "2026-10-04T11:59:31.671-05:00"
+  },
+  "meter_max_exposure_restored_ms": 500
+}

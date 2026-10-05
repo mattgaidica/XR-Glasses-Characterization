@@ -1,0 +1,399 @@
+{
+  "schema": "chronolume-uprtek-model-session/1",
+  "status": "complete",
+  "started": "2026-10-05T12:02:22.568-05:00",
+  "finished": "2026-10-05T12:04:07.297-05:00",
+  "package_version": "0.1.0",
+  "python": "3.12.10 32bit",
+  "model_stage": "mixtures",
+  "stage_role": "calibration",
+  "grid": {
+    "version": "v3-topup",
+    "path": "analysis\\uprtek\\src\\uprtek\\data\\model_grid_v3_topup.json"
+  },
+  "session_index": 2,
+  "seed": 1,
+  "reseated": true,
+  "wear_detection": "disabled",
+  "meter": {
+    "name": "0690815613",
+    "optical_sn": "21B00584",
+    "model": "MK350X",
+    "hw_version": "HWVer:1.1.0CE",
+    "fw_version": "FWVer:1.1.1.B4",
+    "wavelength_start_nm": 380,
+    "wavelength_end_nm": 780,
+    "library_version": "0x10204",
+    "library_dir": "C:\\Program Files (x86)\\uSpectrum\\Library\\Example\\VC\\dll_test_vc2008\\Debug"
+  },
+  "host": {
+    "backend": "viture 2.4.0",
+    "device": "Luma Ultra",
+    "firmware": "12.0.01.101_20260605",
+    "product_id": "4356",
+    "film": "0.000000",
+    "display_mode": "49",
+    "initial_brightness": 8,
+    "initial_duty_cycle": "90",
+    "session_log": "C:/Users/Matt/Documents/Software/Chronolume\\data\\sessions\\session_20261005_120222.jsonl",
+    "restored_brightness": "8",
+    "restored_duty_cycle": "90"
+  },
+  "options": {
+    "stage": "mixtures",
+    "session_index": 2,
+    "seed": 1,
+    "grid": "analysis\\uprtek\\src\\uprtek\\data\\model_grid_v3_topup.json",
+    "anchor_every": "block",
+    "wear_detection": "disabled",
+    "reseated": true
+  },
+  "measure_options": {
+    "sequence": "model_mixtures",
+    "eye": "both",
+    "repeats": 3,
+    "settle_s": 1.0,
+    "brightness_settle_s": 3.0,
+    "auto_exposure": true,
+    "exposure_ms": 50,
+    "max_exposure_ms": 4000,
+    "priming": 1,
+    "max_retries": 5,
+    "retry_wait_s": 2.0,
+    "capture_retries": 3,
+    "anchor_every": "block",
+    "duty": null,
+    "duty_presets": [
+      98,
+      42,
+      30
+    ],
+    "base_brightness": null,
+    "brightness_levels": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    ],
+    "brightness_change_rgb": [
+      0,
+      0,
+      0
+    ],
+    "manual_brightness": false,
+    "calibration_version": "uprtek_v001",
+    "skip_dark": false,
+    "warmup_s": 0.0,
+    "allow_mock": false,
+    "notes": "",
+    "extra": {}
+  },
+  "duty_acceptance": {
+    "time": "2026-10-05T12:02:22.602-05:00",
+    "checks": [
+      {
+        "requested": 98,
+        "reported": "98",
+        "ok": true,
+        "error": null
+      },
+      {
+        "requested": 42,
+        "reported": "42",
+        "ok": true,
+        "error": null
+      },
+      {
+        "requested": 30,
+        "reported": "30",
+        "ok": true,
+        "error": null
+      }
+    ],
+    "duties": [
+      98,
+      42,
+      30
+    ]
+  },
+  "base_duty": 98,
+  "dark": {
+    "time": "2026-10-05T12:02:51.117-05:00",
+    "method": "mk_Msr_Dark (capped sensor)",
+    "duration_s": 19.01
+  },
+  "warmup": null,
+  "blocks": [
+    {
+      "index": 0,
+      "level": 6,
+      "duty": 98,
+      "settings": [
+        "C000-255-064_L6_D98",
+        "C128-128-128_L6_D98",
+        "C000-064-255_L6_D98",
+        "C255-000-064_L6_D98",
+        "C255-064-000_L6_D98",
+        "C064-064-064_L6_D98",
+        "C064-255-000_L6_D98",
+        "C064-000-255_L6_D98"
+      ]
+    }
+  ],
+  "anchors": [
+    {
+      "label": "ANCHOR_00",
+      "after_step": null,
+      "time": "2026-10-05T12:03:03.453-05:00",
+      "lux": [
+        29.383255004882812,
+        29.610885620117188,
+        29.566715240478516
+      ],
+      "lux_median": 29.566715240478516,
+      "ratio_to_reference": null,
+      "flags": [],
+      "duty_reapplied_from": null,
+      "anchor_state": {
+        "brightness": "8",
+        "duty_cycle": "98"
+      },
+      "restored_state": {
+        "brightness": "6",
+        "duty_cycle": "98"
+      },
+      "readback": {
+        "fb_w": 1920,
+        "fb_h": 1080,
+        "left": [
+          0,
+          0,
+          255
+        ],
+        "right": [
+          0,
+          0,
+          255
+        ]
+      },
+      "readback_fixes": [],
+      "capture_attempts": 1
+    },
+    {
+      "label": "ANCHOR_01",
+      "after_step": "C064-000-255_L6_D98",
+      "time": "2026-10-05T12:04:07.271-05:00",
+      "lux": [
+        29.757169723510742,
+        29.954849243164062,
+        29.83873748779297
+      ],
+      "lux_median": 29.83873748779297,
+      "ratio_to_reference": 1.009200286372767,
+      "flags": [],
+      "duty_reapplied_from": null,
+      "anchor_state": {
+        "brightness": "8",
+        "duty_cycle": "98"
+      },
+      "restored_state": {
+        "brightness": "6",
+        "duty_cycle": "98"
+      },
+      "readback": {
+        "fb_w": 1920,
+        "fb_h": 1080,
+        "left": [
+          0,
+          0,
+          255
+        ],
+        "right": [
+          0,
+          0,
+          255
+        ]
+      },
+      "readback_fixes": [],
+      "capture_attempts": 1
+    }
+  ],
+  "captures": [
+    {
+      "label": "K_L6_D98_start",
+      "rgb": [
+        0,
+        0,
+        0
+      ],
+      "level": 6,
+      "duty": 98,
+      "flags": [],
+      "role": "black_start",
+      "model_stage": "mixtures",
+      "block_index": 0,
+      "acquisition_order": 2,
+      "uniform_full_frame": true,
+      "group": null
+    },
+    {
+      "label": "C000-255-064_L6_D98",
+      "rgb": [
+        0,
+        255,
+        64
+      ],
+      "level": 6,
+      "duty": 98,
+      "flags": [],
+      "role": "stimulus",
+      "model_stage": "mixtures",
+      "block_index": 0,
+      "acquisition_order": 3,
+      "uniform_full_frame": true,
+      "group": "mixtures"
+    },
+    {
+      "label": "C128-128-128_L6_D98",
+      "rgb": [
+        128,
+        128,
+        128
+      ],
+      "level": 6,
+      "duty": 98,
+      "flags": [],
+      "role": "stimulus",
+      "model_stage": "mixtures",
+      "block_index": 0,
+      "acquisition_order": 4,
+      "uniform_full_frame": true,
+      "group": "mixtures"
+    },
+    {
+      "label": "C000-064-255_L6_D98",
+      "rgb": [
+        0,
+        64,
+        255
+      ],
+      "level": 6,
+      "duty": 98,
+      "flags": [],
+      "role": "stimulus",
+      "model_stage": "mixtures",
+      "block_index": 0,
+      "acquisition_order": 5,
+      "uniform_full_frame": true,
+      "group": "mixtures"
+    },
+    {
+      "label": "C255-000-064_L6_D98",
+      "rgb": [
+        255,
+        0,
+        64
+      ],
+      "level": 6,
+      "duty": 98,
+      "flags": [],
+      "role": "stimulus",
+      "model_stage": "mixtures",
+      "block_index": 0,
+      "acquisition_order": 6,
+      "uniform_full_frame": true,
+      "group": "mixtures"
+    },
+    {
+      "label": "C255-064-000_L6_D98",
+      "rgb": [
+        255,
+        64,
+        0
+      ],
+      "level": 6,
+      "duty": 98,
+      "flags": [],
+      "role": "stimulus",
+      "model_stage": "mixtures",
+      "block_index": 0,
+      "acquisition_order": 7,
+      "uniform_full_frame": true,
+      "group": "mixtures"
+    },
+    {
+      "label": "C064-064-064_L6_D98",
+      "rgb": [
+        64,
+        64,
+        64
+      ],
+      "level": 6,
+      "duty": 98,
+      "flags": [],
+      "role": "stimulus",
+      "model_stage": "mixtures",
+      "block_index": 0,
+      "acquisition_order": 8,
+      "uniform_full_frame": true,
+      "group": "mixtures"
+    },
+    {
+      "label": "C064-255-000_L6_D98",
+      "rgb": [
+        64,
+        255,
+        0
+      ],
+      "level": 6,
+      "duty": 98,
+      "flags": [],
+      "role": "stimulus",
+      "model_stage": "mixtures",
+      "block_index": 0,
+      "acquisition_order": 9,
+      "uniform_full_frame": true,
+      "group": "mixtures"
+    },
+    {
+      "label": "C064-000-255_L6_D98",
+      "rgb": [
+        64,
+        0,
+        255
+      ],
+      "level": 6,
+      "duty": 98,
+      "flags": [],
+      "role": "stimulus",
+      "model_stage": "mixtures",
+      "block_index": 0,
+      "acquisition_order": 10,
+      "uniform_full_frame": true,
+      "group": "mixtures"
+    },
+    {
+      "label": "K_L6_D98_end",
+      "rgb": [
+        0,
+        0,
+        0
+      ],
+      "level": 6,
+      "duty": 98,
+      "flags": [],
+      "role": "black_end",
+      "model_stage": "mixtures",
+      "block_index": 0,
+      "acquisition_order": 11,
+      "uniform_full_frame": true,
+      "group": null
+    }
+  ],
+  "stop_reason": null
+}

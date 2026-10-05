@@ -1,0 +1,24 @@
+{
+  "schema": "chronolume-model-grid/2",
+  "version": "v3-topup",
+  "source": "v3 mixtures top-up (2026-10-05): the compositions with the largest cross-validation melanopic error (a dim channel next to a full-code channel, and the low gray axis) at level 6, between the v3 mixture levels 4 and 7 where the per-channel loss changes; duty 98 only, one block, for short sessions. Captured as the mixtures stage so the fit picks it up with the v3 mixtures.",
+  "multi_channel_max_brightness": 7,
+  "duties": [98, 42, 30],
+  "stages": {
+    "mixtures": {
+      "role": "calibration",
+      "sessions": 2,
+      "groups": [
+        {
+          "name": "mixtures",
+          "compositions": [
+            [255, 64, 0], [64, 255, 0], [0, 255, 64], [0, 64, 255], [255, 0, 64], [64, 0, 255],
+            [64, 64, 64], [128, 128, 128]
+          ],
+          "levels": [6],
+          "duties": [98]
+        }
+      ]
+    }
+  }
+}

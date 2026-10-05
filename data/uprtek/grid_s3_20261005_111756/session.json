@@ -1,0 +1,2840 @@
+{
+  "schema": "chronolume-uprtek-grid-session/1",
+  "status": "complete",
+  "started": "2026-10-05T11:18:00.012-05:00",
+  "finished": "2026-10-05T11:23:40.233-05:00",
+  "package_version": "0.1.0",
+  "python": "3.12.10 32bit",
+  "session_index": 3,
+  "reseated": true,
+  "meter": {
+    "name": "0690815613",
+    "optical_sn": "21B00584",
+    "model": "MK350X",
+    "hw_version": "HWVer:1.1.0CE",
+    "fw_version": "FWVer:1.1.1.B4",
+    "wavelength_start_nm": 380,
+    "wavelength_end_nm": 780,
+    "library_version": "0x10204",
+    "library_dir": "C:\\Program Files (x86)\\uSpectrum\\Library\\Example\\VC\\dll_test_vc2008\\Debug"
+  },
+  "host": {
+    "backend": "viture 2.4.0",
+    "device": "Luma Ultra",
+    "firmware": "12.0.01.101_20260605",
+    "product_id": "4356",
+    "film": "0.000000",
+    "display_mode": "49",
+    "initial_brightness": 8,
+    "initial_duty_cycle": "90",
+    "framebuffer": [
+      1920,
+      1080
+    ],
+    "session_log": "C:/Users/Matt/Documents/Software/Chronolume\\data\\sessions\\session_20261005_111759.jsonl",
+    "restored_brightness": "8",
+    "restored_duty_cycle": "90"
+  },
+  "grid": {
+    "level": 7,
+    "cells": [
+      {
+        "cell": "C",
+        "row": 1,
+        "col": 1
+      },
+      {
+        "cell": "TL",
+        "row": 0,
+        "col": 0
+      },
+      {
+        "cell": "T",
+        "row": 0,
+        "col": 1
+      },
+      {
+        "cell": "TR",
+        "row": 0,
+        "col": 2
+      },
+      {
+        "cell": "L",
+        "row": 1,
+        "col": 0
+      },
+      {
+        "cell": "R",
+        "row": 1,
+        "col": 2
+      },
+      {
+        "cell": "BL",
+        "row": 2,
+        "col": 0
+      },
+      {
+        "cell": "B",
+        "row": 2,
+        "col": 1
+      },
+      {
+        "cell": "BR",
+        "row": 2,
+        "col": 2
+      }
+    ],
+    "colors": {
+      "R255": [
+        255,
+        0,
+        0
+      ],
+      "G255": [
+        0,
+        255,
+        0
+      ],
+      "B255": [
+        0,
+        0,
+        255
+      ],
+      "W255": [
+        255,
+        255,
+        255
+      ]
+    }
+  },
+  "frames": [
+    {
+      "name": "G_R255_C",
+      "title": "R255 cell C",
+      "webapp_view": "",
+      "composed_to_guidance": true,
+      "level": 7,
+      "nominal_rgb": [
+        255,
+        0,
+        0
+      ],
+      "references": [
+        [
+          255,
+          0,
+          0
+        ]
+      ],
+      "width": 1920,
+      "height": 1080,
+      "hash": "162cc8df2a836725",
+      "lit_fraction": 0.1111111111111111,
+      "colors": [
+        {
+          "rgb": [
+            0,
+            0,
+            0
+          ],
+          "pixels": 1843200,
+          "fraction": 0.8888888888888888
+        },
+        {
+          "rgb": [
+            255,
+            0,
+            0
+          ],
+          "pixels": 230400,
+          "fraction": 0.1111111111111111
+        }
+      ],
+      "file": "C:\\Users\\Matt\\Documents\\Software\\Chronolume\\data\\uprtek\\grid_frames\\1920x1080\\G_R255_C.ppm"
+    },
+    {
+      "name": "G_R255_TL",
+      "title": "R255 cell TL",
+      "webapp_view": "",
+      "composed_to_guidance": true,
+      "level": 7,
+      "nominal_rgb": [
+        255,
+        0,
+        0
+      ],
+      "references": [
+        [
+          255,
+          0,
+          0
+        ]
+      ],
+      "width": 1920,
+      "height": 1080,
+      "hash": "8de49a1af89b6725",
+      "lit_fraction": 0.1111111111111111,
+      "colors": [
+        {
+          "rgb": [
+            0,
+            0,
+            0
+          ],
+          "pixels": 1843200,
+          "fraction": 0.8888888888888888
+        },
+        {
+          "rgb": [
+            255,
+            0,
+            0
+          ],
+          "pixels": 230400,
+          "fraction": 0.1111111111111111
+        }
+      ],
+      "file": "C:\\Users\\Matt\\Documents\\Software\\Chronolume\\data\\uprtek\\grid_frames\\1920x1080\\G_R255_TL.ppm"
+    },
+    {
+      "name": "G_R255_T",
+      "title": "R255 cell T",
+      "webapp_view": "",
+      "composed_to_guidance": true,
+      "level": 7,
+      "nominal_rgb": [
+        255,
+        0,
+        0
+      ],
+      "references": [
+        [
+          255,
+          0,
+          0
+        ]
+      ],
+      "width": 1920,
+      "height": 1080,
+      "hash": "3c2e253009c36725",
+      "lit_fraction": 0.1111111111111111,
+      "colors": [
+        {
+          "rgb": [
+            0,
+            0,
+            0
+          ],
+          "pixels": 1843200,
+          "fraction": 0.8888888888888888
+        },
+        {
+          "rgb": [
+            255,
+            0,
+            0
+          ],
+          "pixels": 230400,
+          "fraction": 0.1111111111111111
+        }
+      ],
+      "file": "C:\\Users\\Matt\\Documents\\Software\\Chronolume\\data\\uprtek\\grid_frames\\1920x1080\\G_R255_T.ppm"
+    },
+    {
+      "name": "G_R255_TR",
+      "title": "R255 cell TR",
+      "webapp_view": "",
+      "composed_to_guidance": true,
+      "level": 7,
+      "nominal_rgb": [
+        255,
+        0,
+        0
+      ],
+      "references": [
+        [
+          255,
+          0,
+          0
+        ]
+      ],
+      "width": 1920,
+      "height": 1080,
+      "hash": "f78065a66aeb6725",
+      "lit_fraction": 0.1111111111111111,
+      "colors": [
+        {
+          "rgb": [
+            0,
+            0,
+            0
+          ],
+          "pixels": 1843200,
+          "fraction": 0.8888888888888888
+        },
+        {
+          "rgb": [
+            255,
+            0,
+            0
+          ],
+          "pixels": 230400,
+          "fraction": 0.1111111111111111
+        }
+      ],
+      "file": "C:\\Users\\Matt\\Documents\\Software\\Chronolume\\data\\uprtek\\grid_frames\\1920x1080\\G_R255_TR.ppm"
+    },
+    {
+      "name": "G_R255_L",
+      "title": "R255 cell L",
+      "webapp_view": "",
+      "composed_to_guidance": true,
+      "level": 7,
+      "nominal_rgb": [
+        255,
+        0,
+        0
+      ],
+      "references": [
+        [
+          255,
+          0,
+          0
+        ]
+      ],
+      "width": 1920,
+      "height": 1080,
+      "hash": "594208c0995b6725",
+      "lit_fraction": 0.1111111111111111,
+      "colors": [
+        {
+          "rgb": [
+            0,
+            0,
+            0
+          ],
+          "pixels": 1843200,
+          "fraction": 0.8888888888888888
+        },
+        {
+          "rgb": [
+            255,
+            0,
+            0
+          ],
+          "pixels": 230400,
+          "fraction": 0.1111111111111111
+        }
+      ],
+      "file": "C:\\Users\\Matt\\Documents\\Software\\Chronolume\\data\\uprtek\\grid_frames\\1920x1080\\G_R255_L.ppm"
+    },
+    {
+      "name": "G_R255_R",
+      "title": "R255 cell R",
+      "webapp_view": "",
+      "composed_to_guidance": true,
+      "level": 7,
+      "nominal_rgb": [
+        255,
+        0,
+        0
+      ],
+      "references": [
+        [
+          255,
+          0,
+          0
+        ]
+      ],
+      "width": 1920,
+      "height": 1080,
+      "hash": "c218e15f0bab6725",
+      "lit_fraction": 0.1111111111111111,
+      "colors": [
+        {
+          "rgb": [
+            0,
+            0,
+            0
+          ],
+          "pixels": 1843200,
+          "fraction": 0.8888888888888888
+        },
+        {
+          "rgb": [
+            255,
+            0,
+            0
+          ],
+          "pixels": 230400,
+          "fraction": 0.1111111111111111
+        }
+      ],
+      "file": "C:\\Users\\Matt\\Documents\\Software\\Chronolume\\data\\uprtek\\grid_frames\\1920x1080\\G_R255_R.ppm"
+    },
+    {
+      "name": "G_R255_BL",
+      "title": "R255 cell BL",
+      "webapp_view": "",
+      "composed_to_guidance": true,
+      "level": 7,
+      "nominal_rgb": [
+        255,
+        0,
+        0
+      ],
+      "references": [
+        [
+          255,
+          0,
+          0
+        ]
+      ],
+      "width": 1920,
+      "height": 1080,
+      "hash": "3275c37a3a1b6725",
+      "lit_fraction": 0.1111111111111111,
+      "colors": [
+        {
+          "rgb": [
+            0,
+            0,
+            0
+          ],
+          "pixels": 1843200,
+          "fraction": 0.8888888888888888
+        },
+        {
+          "rgb": [
+            255,
+            0,
+            0
+          ],
+          "pixels": 230400,
+          "fraction": 0.1111111111111111
+        }
+      ],
+      "file": "C:\\Users\\Matt\\Documents\\Software\\Chronolume\\data\\uprtek\\grid_frames\\1920x1080\\G_R255_BL.ppm"
+    },
+    {
+      "name": "G_R255_B",
+      "title": "R255 cell B",
+      "webapp_view": "",
+      "composed_to_guidance": true,
+      "level": 7,
+      "nominal_rgb": [
+        255,
+        0,
+        0
+      ],
+      "references": [
+        [
+          255,
+          0,
+          0
+        ]
+      ],
+      "width": 1920,
+      "height": 1080,
+      "hash": "188960a24b436725",
+      "lit_fraction": 0.1111111111111111,
+      "colors": [
+        {
+          "rgb": [
+            0,
+            0,
+            0
+          ],
+          "pixels": 1843200,
+          "fraction": 0.8888888888888888
+        },
+        {
+          "rgb": [
+            255,
+            0,
+            0
+          ],
+          "pixels": 230400,
+          "fraction": 0.1111111111111111
+        }
+      ],
+      "file": "C:\\Users\\Matt\\Documents\\Software\\Chronolume\\data\\uprtek\\grid_frames\\1920x1080\\G_R255_B.ppm"
+    },
+    {
+      "name": "G_R255_BR",
+      "title": "R255 cell BR",
+      "webapp_view": "",
+      "composed_to_guidance": true,
+      "level": 7,
+      "nominal_rgb": [
+        255,
+        0,
+        0
+      ],
+      "references": [
+        [
+          255,
+          0,
+          0
+        ]
+      ],
+      "width": 1920,
+      "height": 1080,
+      "hash": "8de6f92bac6b6725",
+      "lit_fraction": 0.1111111111111111,
+      "colors": [
+        {
+          "rgb": [
+            0,
+            0,
+            0
+          ],
+          "pixels": 1843200,
+          "fraction": 0.8888888888888888
+        },
+        {
+          "rgb": [
+            255,
+            0,
+            0
+          ],
+          "pixels": 230400,
+          "fraction": 0.1111111111111111
+        }
+      ],
+      "file": "C:\\Users\\Matt\\Documents\\Software\\Chronolume\\data\\uprtek\\grid_frames\\1920x1080\\G_R255_BR.ppm"
+    },
+    {
+      "name": "G_G255_C",
+      "title": "G255 cell C",
+      "webapp_view": "",
+      "composed_to_guidance": true,
+      "level": 7,
+      "nominal_rgb": [
+        0,
+        255,
+        0
+      ],
+      "references": [
+        [
+          0,
+          255,
+          0
+        ]
+      ],
+      "width": 1920,
+      "height": 1080,
+      "hash": "9ec96b07e46f2f25",
+      "lit_fraction": 0.1111111111111111,
+      "colors": [
+        {
+          "rgb": [
+            0,
+            0,
+            0
+          ],
+          "pixels": 1843200,
+          "fraction": 0.8888888888888888
+        },
+        {
+          "rgb": [
+            0,
+            255,
+            0
+          ],
+          "pixels": 230400,
+          "fraction": 0.1111111111111111
+        }
+      ],
+      "file": "C:\\Users\\Matt\\Documents\\Software\\Chronolume\\data\\uprtek\\grid_frames\\1920x1080\\G_G255_C.ppm"
+    },
+    {
+      "name": "G_G255_TL",
+      "title": "G255 cell TL",
+      "webapp_view": "",
+      "composed_to_guidance": true,
+      "level": 7,
+      "nominal_rgb": [
+        0,
+        255,
+        0
+      ],
+      "references": [
+        [
+          0,
+          255,
+          0
+        ]
+      ],
+      "width": 1920,
+      "height": 1080,
+      "hash": "be894a3cb0772f25",
+      "lit_fraction": 0.1111111111111111,
+      "colors": [
+        {
+          "rgb": [
+            0,
+            0,
+            0
+          ],
+          "pixels": 1843200,
+          "fraction": 0.8888888888888888
+        },
+        {
+          "rgb": [
+            0,
+            255,
+            0
+          ],
+          "pixels": 230400,
+          "fraction": 0.1111111111111111
+        }
+      ],
+      "file": "C:\\Users\\Matt\\Documents\\Software\\Chronolume\\data\\uprtek\\grid_frames\\1920x1080\\G_G255_TL.ppm"
+    },
+    {
+      "name": "G_G255_T",
+      "title": "G255 cell T",
+      "webapp_view": "",
+      "composed_to_guidance": true,
+      "level": 7,
+      "nominal_rgb": [
+        0,
+        255,
+        0
+      ],
+      "references": [
+        [
+          0,
+          255,
+          0
+        ]
+      ],
+      "width": 1920,
+      "height": 1080,
+      "hash": "4dcc3c57f42f2f25",
+      "lit_fraction": 0.1111111111111111,
+      "colors": [
+        {
+          "rgb": [
+            0,
+            0,
+            0
+          ],
+          "pixels": 1843200,
+          "fraction": 0.8888888888888888
+        },
+        {
+          "rgb": [
+            0,
+            255,
+            0
+          ],
+          "pixels": 230400,
+          "fraction": 0.1111111111111111
+        }
+      ],
+      "file": "C:\\Users\\Matt\\Documents\\Software\\Chronolume\\data\\uprtek\\grid_frames\\1920x1080\\G_G255_T.ppm"
+    },
+    {
+      "name": "G_G255_TR",
+      "title": "G255 cell TR",
+      "webapp_view": "",
+      "composed_to_guidance": true,
+      "level": 7,
+      "nominal_rgb": [
+        0,
+        255,
+        0
+      ],
+      "references": [
+        [
+          0,
+          255,
+          0
+        ]
+      ],
+      "width": 1920,
+      "height": 1080,
+      "hash": "68ec314fa7e72f25",
+      "lit_fraction": 0.1111111111111111,
+      "colors": [
+        {
+          "rgb": [
+            0,
+            0,
+            0
+          ],
+          "pixels": 1843200,
+          "fraction": 0.8888888888888888
+        },
+        {
+          "rgb": [
+            0,
+            255,
+            0
+          ],
+          "pixels": 230400,
+          "fraction": 0.1111111111111111
+        }
+      ],
+      "file": "C:\\Users\\Matt\\Documents\\Software\\Chronolume\\data\\uprtek\\grid_frames\\1920x1080\\G_G255_TR.ppm"
+    },
+    {
+      "name": "G_G255_L",
+      "title": "G255 cell L",
+      "webapp_view": "",
+      "composed_to_guidance": true,
+      "level": 7,
+      "nominal_rgb": [
+        0,
+        255,
+        0
+      ],
+      "references": [
+        [
+          0,
+          255,
+          0
+        ]
+      ],
+      "width": 1920,
+      "height": 1080,
+      "hash": "0173db7420b72f25",
+      "lit_fraction": 0.1111111111111111,
+      "colors": [
+        {
+          "rgb": [
+            0,
+            0,
+            0
+          ],
+          "pixels": 1843200,
+          "fraction": 0.8888888888888888
+        },
+        {
+          "rgb": [
+            0,
+            255,
+            0
+          ],
+          "pixels": 230400,
+          "fraction": 0.1111111111111111
+        }
+      ],
+      "file": "C:\\Users\\Matt\\Documents\\Software\\Chronolume\\data\\uprtek\\grid_frames\\1920x1080\\G_G255_L.ppm"
+    },
+    {
+      "name": "G_G255_R",
+      "title": "G255 cell R",
+      "webapp_view": "",
+      "composed_to_guidance": true,
+      "level": 7,
+      "nominal_rgb": [
+        0,
+        255,
+        0
+      ],
+      "references": [
+        [
+          0,
+          255,
+          0
+        ]
+      ],
+      "width": 1920,
+      "height": 1080,
+      "hash": "35bd1e7818272f25",
+      "lit_fraction": 0.1111111111111111,
+      "colors": [
+        {
+          "rgb": [
+            0,
+            0,
+            0
+          ],
+          "pixels": 1843200,
+          "fraction": 0.8888888888888888
+        },
+        {
+          "rgb": [
+            0,
+            255,
+            0
+          ],
+          "pixels": 230400,
+          "fraction": 0.1111111111111111
+        }
+      ],
+      "file": "C:\\Users\\Matt\\Documents\\Software\\Chronolume\\data\\uprtek\\grid_frames\\1920x1080\\G_G255_R.ppm"
+    },
+    {
+      "name": "G_G255_BL",
+      "title": "G255 cell BL",
+      "webapp_view": "",
+      "composed_to_guidance": true,
+      "level": 7,
+      "nominal_rgb": [
+        0,
+        255,
+        0
+      ],
+      "references": [
+        [
+          0,
+          255,
+          0
+        ]
+      ],
+      "width": 1920,
+      "height": 1080,
+      "hash": "e8df450790f72f25",
+      "lit_fraction": 0.1111111111111111,
+      "colors": [
+        {
+          "rgb": [
+            0,
+            0,
+            0
+          ],
+          "pixels": 1843200,
+          "fraction": 0.8888888888888888
+        },
+        {
+          "rgb": [
+            0,
+            255,
+            0
+          ],
+          "pixels": 230400,
+          "fraction": 0.1111111111111111
+        }
+      ],
+      "file": "C:\\Users\\Matt\\Documents\\Software\\Chronolume\\data\\uprtek\\grid_frames\\1920x1080\\G_G255_BL.ppm"
+    },
+    {
+      "name": "G_G255_B",
+      "title": "G255 cell B",
+      "webapp_view": "",
+      "composed_to_guidance": true,
+      "level": 7,
+      "nominal_rgb": [
+        0,
+        255,
+        0
+      ],
+      "references": [
+        [
+          0,
+          255,
+          0
+        ]
+      ],
+      "width": 1920,
+      "height": 1080,
+      "hash": "0592aa13d4af2f25",
+      "lit_fraction": 0.1111111111111111,
+      "colors": [
+        {
+          "rgb": [
+            0,
+            0,
+            0
+          ],
+          "pixels": 1843200,
+          "fraction": 0.8888888888888888
+        },
+        {
+          "rgb": [
+            0,
+            255,
+            0
+          ],
+          "pixels": 230400,
+          "fraction": 0.1111111111111111
+        }
+      ],
+      "file": "C:\\Users\\Matt\\Documents\\Software\\Chronolume\\data\\uprtek\\grid_frames\\1920x1080\\G_G255_B.ppm"
+    },
+    {
+      "name": "G_G255_BR",
+      "title": "G255 cell BR",
+      "webapp_view": "",
+      "composed_to_guidance": true,
+      "level": 7,
+      "nominal_rgb": [
+        0,
+        255,
+        0
+      ],
+      "references": [
+        [
+          0,
+          255,
+          0
+        ]
+      ],
+      "width": 1920,
+      "height": 1080,
+      "hash": "451553fc88672f25",
+      "lit_fraction": 0.1111111111111111,
+      "colors": [
+        {
+          "rgb": [
+            0,
+            0,
+            0
+          ],
+          "pixels": 1843200,
+          "fraction": 0.8888888888888888
+        },
+        {
+          "rgb": [
+            0,
+            255,
+            0
+          ],
+          "pixels": 230400,
+          "fraction": 0.1111111111111111
+        }
+      ],
+      "file": "C:\\Users\\Matt\\Documents\\Software\\Chronolume\\data\\uprtek\\grid_frames\\1920x1080\\G_G255_BR.ppm"
+    },
+    {
+      "name": "G_B255_C",
+      "title": "B255 cell C",
+      "webapp_view": "",
+      "composed_to_guidance": true,
+      "level": 7,
+      "nominal_rgb": [
+        0,
+        0,
+        255
+      ],
+      "references": [
+        [
+          0,
+          0,
+          255
+        ]
+      ],
+      "width": 1920,
+      "height": 1080,
+      "hash": "3bb150a8a9204725",
+      "lit_fraction": 0.1111111111111111,
+      "colors": [
+        {
+          "rgb": [
+            0,
+            0,
+            0
+          ],
+          "pixels": 1843200,
+          "fraction": 0.8888888888888888
+        },
+        {
+          "rgb": [
+            0,
+            0,
+            255
+          ],
+          "pixels": 230400,
+          "fraction": 0.1111111111111111
+        }
+      ],
+      "file": "C:\\Users\\Matt\\Documents\\Software\\Chronolume\\data\\uprtek\\grid_frames\\1920x1080\\G_B255_C.ppm"
+    },
+    {
+      "name": "G_B255_TL",
+      "title": "B255 cell TL",
+      "webapp_view": "",
+      "composed_to_guidance": true,
+      "level": 7,
+      "nominal_rgb": [
+        0,
+        0,
+        255
+      ],
+      "references": [
+        [
+          0,
+          0,
+          255
+        ]
+      ],
+      "width": 1920,
+      "height": 1080,
+      "hash": "6da91dd227784725",
+      "lit_fraction": 0.1111111111111111,
+      "colors": [
+        {
+          "rgb": [
+            0,
+            0,
+            0
+          ],
+          "pixels": 1843200,
+          "fraction": 0.8888888888888888
+        },
+        {
+          "rgb": [
+            0,
+            0,
+            255
+          ],
+          "pixels": 230400,
+          "fraction": 0.1111111111111111
+        }
+      ],
+      "file": "C:\\Users\\Matt\\Documents\\Software\\Chronolume\\data\\uprtek\\grid_frames\\1920x1080\\G_B255_TL.ppm"
+    },
+    {
+      "name": "G_B255_T",
+      "title": "B255 cell T",
+      "webapp_view": "",
+      "composed_to_guidance": true,
+      "level": 7,
+      "nominal_rgb": [
+        0,
+        0,
+        255
+      ],
+      "references": [
+        [
+          0,
+          0,
+          255
+        ]
+      ],
+      "width": 1920,
+      "height": 1080,
+      "hash": "ee21579f86604725",
+      "lit_fraction": 0.1111111111111111,
+      "colors": [
+        {
+          "rgb": [
+            0,
+            0,
+            0
+          ],
+          "pixels": 1843200,
+          "fraction": 0.8888888888888888
+        },
+        {
+          "rgb": [
+            0,
+            0,
+            255
+          ],
+          "pixels": 230400,
+          "fraction": 0.1111111111111111
+        }
+      ],
+      "file": "C:\\Users\\Matt\\Documents\\Software\\Chronolume\\data\\uprtek\\grid_frames\\1920x1080\\G_B255_T.ppm"
+    },
+    {
+      "name": "G_B255_TR",
+      "title": "B255 cell TR",
+      "webapp_view": "",
+      "composed_to_guidance": true,
+      "level": 7,
+      "nominal_rgb": [
+        0,
+        0,
+        255
+      ],
+      "references": [
+        [
+          0,
+          0,
+          255
+        ]
+      ],
+      "width": 1920,
+      "height": 1080,
+      "hash": "19b8cc11b5484725",
+      "lit_fraction": 0.1111111111111111,
+      "colors": [
+        {
+          "rgb": [
+            0,
+            0,
+            0
+          ],
+          "pixels": 1843200,
+          "fraction": 0.8888888888888888
+        },
+        {
+          "rgb": [
+            0,
+            0,
+            255
+          ],
+          "pixels": 230400,
+          "fraction": 0.1111111111111111
+        }
+      ],
+      "file": "C:\\Users\\Matt\\Documents\\Software\\Chronolume\\data\\uprtek\\grid_frames\\1920x1080\\G_B255_TR.ppm"
+    },
+    {
+      "name": "G_B255_L",
+      "title": "B255 cell L",
+      "webapp_view": "",
+      "composed_to_guidance": true,
+      "level": 7,
+      "nominal_rgb": [
+        0,
+        0,
+        255
+      ],
+      "references": [
+        [
+          0,
+          0,
+          255
+        ]
+      ],
+      "width": 1920,
+      "height": 1080,
+      "hash": "351e510dca384725",
+      "lit_fraction": 0.1111111111111111,
+      "colors": [
+        {
+          "rgb": [
+            0,
+            0,
+            0
+          ],
+          "pixels": 1843200,
+          "fraction": 0.8888888888888888
+        },
+        {
+          "rgb": [
+            0,
+            0,
+            255
+          ],
+          "pixels": 230400,
+          "fraction": 0.1111111111111111
+        }
+      ],
+      "file": "C:\\Users\\Matt\\Documents\\Software\\Chronolume\\data\\uprtek\\grid_frames\\1920x1080\\G_B255_L.ppm"
+    },
+    {
+      "name": "G_B255_R",
+      "title": "B255 cell R",
+      "webapp_view": "",
+      "composed_to_guidance": true,
+      "level": 7,
+      "nominal_rgb": [
+        0,
+        0,
+        255
+      ],
+      "references": [
+        [
+          0,
+          0,
+          255
+        ]
+      ],
+      "width": 1920,
+      "height": 1080,
+      "hash": "5e8f35e858084725",
+      "lit_fraction": 0.1111111111111111,
+      "colors": [
+        {
+          "rgb": [
+            0,
+            0,
+            0
+          ],
+          "pixels": 1843200,
+          "fraction": 0.8888888888888888
+        },
+        {
+          "rgb": [
+            0,
+            0,
+            255
+          ],
+          "pixels": 230400,
+          "fraction": 0.1111111111111111
+        }
+      ],
+      "file": "C:\\Users\\Matt\\Documents\\Software\\Chronolume\\data\\uprtek\\grid_frames\\1920x1080\\G_B255_R.ppm"
+    },
+    {
+      "name": "G_B255_BL",
+      "title": "B255 cell BL",
+      "webapp_view": "",
+      "composed_to_guidance": true,
+      "level": 7,
+      "nominal_rgb": [
+        0,
+        0,
+        255
+      ],
+      "references": [
+        [
+          0,
+          0,
+          255
+        ]
+      ],
+      "width": 1920,
+      "height": 1080,
+      "hash": "cfb0ab3d6cf84725",
+      "lit_fraction": 0.1111111111111111,
+      "colors": [
+        {
+          "rgb": [
+            0,
+            0,
+            0
+          ],
+          "pixels": 1843200,
+          "fraction": 0.8888888888888888
+        },
+        {
+          "rgb": [
+            0,
+            0,
+            255
+          ],
+          "pixels": 230400,
+          "fraction": 0.1111111111111111
+        }
+      ],
+      "file": "C:\\Users\\Matt\\Documents\\Software\\Chronolume\\data\\uprtek\\grid_frames\\1920x1080\\G_B255_BL.ppm"
+    },
+    {
+      "name": "G_B255_B",
+      "title": "B255 cell B",
+      "webapp_view": "",
+      "composed_to_guidance": true,
+      "level": 7,
+      "nominal_rgb": [
+        0,
+        0,
+        255
+      ],
+      "references": [
+        [
+          0,
+          0,
+          255
+        ]
+      ],
+      "width": 1920,
+      "height": 1080,
+      "hash": "3a6fd8a5cbe04725",
+      "lit_fraction": 0.1111111111111111,
+      "colors": [
+        {
+          "rgb": [
+            0,
+            0,
+            0
+          ],
+          "pixels": 1843200,
+          "fraction": 0.8888888888888888
+        },
+        {
+          "rgb": [
+            0,
+            0,
+            255
+          ],
+          "pixels": 230400,
+          "fraction": 0.1111111111111111
+        }
+      ],
+      "file": "C:\\Users\\Matt\\Documents\\Software\\Chronolume\\data\\uprtek\\grid_frames\\1920x1080\\G_B255_B.ppm"
+    },
+    {
+      "name": "G_B255_BR",
+      "title": "B255 cell BR",
+      "webapp_view": "",
+      "composed_to_guidance": true,
+      "level": 7,
+      "nominal_rgb": [
+        0,
+        0,
+        255
+      ],
+      "references": [
+        [
+          0,
+          0,
+          255
+        ]
+      ],
+      "width": 1920,
+      "height": 1080,
+      "hash": "2c7596b2fac84725",
+      "lit_fraction": 0.1111111111111111,
+      "colors": [
+        {
+          "rgb": [
+            0,
+            0,
+            0
+          ],
+          "pixels": 1843200,
+          "fraction": 0.8888888888888888
+        },
+        {
+          "rgb": [
+            0,
+            0,
+            255
+          ],
+          "pixels": 230400,
+          "fraction": 0.1111111111111111
+        }
+      ],
+      "file": "C:\\Users\\Matt\\Documents\\Software\\Chronolume\\data\\uprtek\\grid_frames\\1920x1080\\G_B255_BR.ppm"
+    },
+    {
+      "name": "G_W255_C",
+      "title": "W255 cell C",
+      "webapp_view": "",
+      "composed_to_guidance": true,
+      "level": 7,
+      "nominal_rgb": [
+        255,
+        255,
+        255
+      ],
+      "references": [
+        [
+          255,
+          255,
+          255
+        ]
+      ],
+      "width": 1920,
+      "height": 1080,
+      "hash": "1ad34a62a01e7f25",
+      "lit_fraction": 0.1111111111111111,
+      "colors": [
+        {
+          "rgb": [
+            0,
+            0,
+            0
+          ],
+          "pixels": 1843200,
+          "fraction": 0.8888888888888888
+        },
+        {
+          "rgb": [
+            255,
+            255,
+            255
+          ],
+          "pixels": 230400,
+          "fraction": 0.1111111111111111
+        }
+      ],
+      "file": "C:\\Users\\Matt\\Documents\\Software\\Chronolume\\data\\uprtek\\grid_frames\\1920x1080\\G_W255_C.ppm"
+    },
+    {
+      "name": "G_W255_TL",
+      "title": "W255 cell TL",
+      "webapp_view": "",
+      "composed_to_guidance": true,
+      "level": 7,
+      "nominal_rgb": [
+        255,
+        255,
+        255
+      ],
+      "references": [
+        [
+          255,
+          255,
+          255
+        ]
+      ],
+      "width": 1920,
+      "height": 1080,
+      "hash": "4c11d3e52c867f25",
+      "lit_fraction": 0.1111111111111111,
+      "colors": [
+        {
+          "rgb": [
+            0,
+            0,
+            0
+          ],
+          "pixels": 1843200,
+          "fraction": 0.8888888888888888
+        },
+        {
+          "rgb": [
+            255,
+            255,
+            255
+          ],
+          "pixels": 230400,
+          "fraction": 0.1111111111111111
+        }
+      ],
+      "file": "C:\\Users\\Matt\\Documents\\Software\\Chronolume\\data\\uprtek\\grid_frames\\1920x1080\\G_W255_TL.ppm"
+    },
+    {
+      "name": "G_W255_T",
+      "title": "W255 cell T",
+      "webapp_view": "",
+      "composed_to_guidance": true,
+      "level": 7,
+      "nominal_rgb": [
+        255,
+        255,
+        255
+      ],
+      "references": [
+        [
+          255,
+          255,
+          255
+        ]
+      ],
+      "width": 1920,
+      "height": 1080,
+      "hash": "56afbb71ecde7f25",
+      "lit_fraction": 0.1111111111111111,
+      "colors": [
+        {
+          "rgb": [
+            0,
+            0,
+            0
+          ],
+          "pixels": 1843200,
+          "fraction": 0.8888888888888888
+        },
+        {
+          "rgb": [
+            255,
+            255,
+            255
+          ],
+          "pixels": 230400,
+          "fraction": 0.1111111111111111
+        }
+      ],
+      "file": "C:\\Users\\Matt\\Documents\\Software\\Chronolume\\data\\uprtek\\grid_frames\\1920x1080\\G_W255_T.ppm"
+    },
+    {
+      "name": "G_W255_TR",
+      "title": "W255 cell TR",
+      "webapp_view": "",
+      "composed_to_guidance": true,
+      "level": 7,
+      "nominal_rgb": [
+        255,
+        255,
+        255
+      ],
+      "references": [
+        [
+          255,
+          255,
+          255
+        ]
+      ],
+      "width": 1920,
+      "height": 1080,
+      "hash": "0f289ad05d367f25",
+      "lit_fraction": 0.1111111111111111,
+      "colors": [
+        {
+          "rgb": [
+            0,
+            0,
+            0
+          ],
+          "pixels": 1843200,
+          "fraction": 0.8888888888888888
+        },
+        {
+          "rgb": [
+            255,
+            255,
+            255
+          ],
+          "pixels": 230400,
+          "fraction": 0.1111111111111111
+        }
+      ],
+      "file": "C:\\Users\\Matt\\Documents\\Software\\Chronolume\\data\\uprtek\\grid_frames\\1920x1080\\G_W255_TR.ppm"
+    },
+    {
+      "name": "G_W255_L",
+      "title": "W255 cell L",
+      "webapp_view": "",
+      "composed_to_guidance": true,
+      "level": 7,
+      "nominal_rgb": [
+        255,
+        255,
+        255
+      ],
+      "references": [
+        [
+          255,
+          255,
+          255
+        ]
+      ],
+      "width": 1920,
+      "height": 1080,
+      "hash": "6e0dd0b75fc67f25",
+      "lit_fraction": 0.1111111111111111,
+      "colors": [
+        {
+          "rgb": [
+            0,
+            0,
+            0
+          ],
+          "pixels": 1843200,
+          "fraction": 0.8888888888888888
+        },
+        {
+          "rgb": [
+            255,
+            255,
+            255
+          ],
+          "pixels": 230400,
+          "fraction": 0.1111111111111111
+        }
+      ],
+      "file": "C:\\Users\\Matt\\Documents\\Software\\Chronolume\\data\\uprtek\\grid_frames\\1920x1080\\G_W255_L.ppm"
+    },
+    {
+      "name": "G_W255_R",
+      "title": "W255 cell R",
+      "webapp_view": "",
+      "composed_to_guidance": true,
+      "level": 7,
+      "nominal_rgb": [
+        255,
+        255,
+        255
+      ],
+      "references": [
+        [
+          255,
+          255,
+          255
+        ]
+      ],
+      "width": 1920,
+      "height": 1080,
+      "hash": "e08868df90767f25",
+      "lit_fraction": 0.1111111111111111,
+      "colors": [
+        {
+          "rgb": [
+            0,
+            0,
+            0
+          ],
+          "pixels": 1843200,
+          "fraction": 0.8888888888888888
+        },
+        {
+          "rgb": [
+            255,
+            255,
+            255
+          ],
+          "pixels": 230400,
+          "fraction": 0.1111111111111111
+        }
+      ],
+      "file": "C:\\Users\\Matt\\Documents\\Software\\Chronolume\\data\\uprtek\\grid_frames\\1920x1080\\G_W255_R.ppm"
+    },
+    {
+      "name": "G_W255_BL",
+      "title": "W255 cell BL",
+      "webapp_view": "",
+      "composed_to_guidance": true,
+      "level": 7,
+      "nominal_rgb": [
+        255,
+        255,
+        255
+      ],
+      "references": [
+        [
+          255,
+          255,
+          255
+        ]
+      ],
+      "width": 1920,
+      "height": 1080,
+      "hash": "4db0f23593067f25",
+      "lit_fraction": 0.1111111111111111,
+      "colors": [
+        {
+          "rgb": [
+            0,
+            0,
+            0
+          ],
+          "pixels": 1843200,
+          "fraction": 0.8888888888888888
+        },
+        {
+          "rgb": [
+            255,
+            255,
+            255
+          ],
+          "pixels": 230400,
+          "fraction": 0.1111111111111111
+        }
+      ],
+      "file": "C:\\Users\\Matt\\Documents\\Software\\Chronolume\\data\\uprtek\\grid_frames\\1920x1080\\G_W255_BL.ppm"
+    },
+    {
+      "name": "G_W255_B",
+      "title": "W255 cell B",
+      "webapp_view": "",
+      "composed_to_guidance": true,
+      "level": 7,
+      "nominal_rgb": [
+        255,
+        255,
+        255
+      ],
+      "references": [
+        [
+          255,
+          255,
+          255
+        ]
+      ],
+      "width": 1920,
+      "height": 1080,
+      "hash": "f4bfd5ff535e7f25",
+      "lit_fraction": 0.1111111111111111,
+      "colors": [
+        {
+          "rgb": [
+            0,
+            0,
+            0
+          ],
+          "pixels": 1843200,
+          "fraction": 0.8888888888888888
+        },
+        {
+          "rgb": [
+            255,
+            255,
+            255
+          ],
+          "pixels": 230400,
+          "fraction": 0.1111111111111111
+        }
+      ],
+      "file": "C:\\Users\\Matt\\Documents\\Software\\Chronolume\\data\\uprtek\\grid_frames\\1920x1080\\G_W255_B.ppm"
+    },
+    {
+      "name": "G_W255_BR",
+      "title": "W255 cell BR",
+      "webapp_view": "",
+      "composed_to_guidance": true,
+      "level": 7,
+      "nominal_rgb": [
+        255,
+        255,
+        255
+      ],
+      "references": [
+        [
+          255,
+          255,
+          255
+        ]
+      ],
+      "width": 1920,
+      "height": 1080,
+      "hash": "44830b9ac3b67f25",
+      "lit_fraction": 0.1111111111111111,
+      "colors": [
+        {
+          "rgb": [
+            0,
+            0,
+            0
+          ],
+          "pixels": 1843200,
+          "fraction": 0.8888888888888888
+        },
+        {
+          "rgb": [
+            255,
+            255,
+            255
+          ],
+          "pixels": 230400,
+          "fraction": 0.1111111111111111
+        }
+      ],
+      "file": "C:\\Users\\Matt\\Documents\\Software\\Chronolume\\data\\uprtek\\grid_frames\\1920x1080\\G_W255_BR.ppm"
+    }
+  ],
+  "measure_options": {
+    "sequence": "grid",
+    "eye": "both",
+    "repeats": 3,
+    "settle_s": 1.0,
+    "brightness_settle_s": 3.0,
+    "auto_exposure": true,
+    "exposure_ms": 50,
+    "max_exposure_ms": 4000,
+    "priming": 1,
+    "max_retries": 5,
+    "retry_wait_s": 2.0,
+    "capture_retries": 3,
+    "anchor_every": 0,
+    "duty": 98,
+    "duty_presets": [
+      98,
+      42,
+      30
+    ],
+    "base_brightness": null,
+    "brightness_levels": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    ],
+    "brightness_change_rgb": [
+      0,
+      0,
+      0
+    ],
+    "manual_brightness": false,
+    "calibration_version": "uprtek_v001",
+    "skip_dark": false,
+    "warmup_s": 0.0,
+    "allow_mock": false,
+    "notes": "",
+    "extra": {}
+  },
+  "duty_acceptance": {
+    "time": "2026-10-05T11:18:00.045-05:00",
+    "checks": [
+      {
+        "requested": 98,
+        "reported": "98",
+        "ok": true,
+        "error": null
+      },
+      {
+        "requested": 42,
+        "reported": "42",
+        "ok": true,
+        "error": null
+      },
+      {
+        "requested": 30,
+        "reported": "30",
+        "ok": true,
+        "error": null
+      }
+    ],
+    "duties": [
+      98,
+      42,
+      30
+    ]
+  },
+  "base_duty": 98,
+  "dark": {
+    "time": "2026-10-05T11:18:26.924-05:00",
+    "method": "mk_Msr_Dark (capped sensor)",
+    "duration_s": 19.02
+  },
+  "warmup": null,
+  "blocks": [
+    {
+      "index": 0,
+      "color": "R255",
+      "rgb": [
+        255,
+        0,
+        0
+      ],
+      "level": 7,
+      "duty": 98,
+      "captures": [
+        "K_R255_start",
+        "G_R255_FULL",
+        "G_R255_C",
+        "G_R255_TL",
+        "G_R255_T",
+        "G_R255_TR",
+        "G_R255_L",
+        "G_R255_R",
+        "G_R255_BL",
+        "G_R255_B",
+        "G_R255_BR",
+        "K_R255_end"
+      ]
+    },
+    {
+      "index": 1,
+      "color": "G255",
+      "rgb": [
+        0,
+        255,
+        0
+      ],
+      "level": 7,
+      "duty": 98,
+      "captures": [
+        "K_G255_start",
+        "G_G255_FULL",
+        "G_G255_C",
+        "G_G255_TL",
+        "G_G255_T",
+        "G_G255_TR",
+        "G_G255_L",
+        "G_G255_R",
+        "G_G255_BL",
+        "G_G255_B",
+        "G_G255_BR",
+        "K_G255_end"
+      ]
+    },
+    {
+      "index": 2,
+      "color": "B255",
+      "rgb": [
+        0,
+        0,
+        255
+      ],
+      "level": 7,
+      "duty": 98,
+      "captures": [
+        "K_B255_start",
+        "G_B255_FULL",
+        "G_B255_C",
+        "G_B255_TL",
+        "G_B255_T",
+        "G_B255_TR",
+        "G_B255_L",
+        "G_B255_R",
+        "G_B255_BL",
+        "G_B255_B",
+        "G_B255_BR",
+        "K_B255_end"
+      ]
+    },
+    {
+      "index": 3,
+      "color": "W255",
+      "rgb": [
+        255,
+        255,
+        255
+      ],
+      "level": 7,
+      "duty": 98,
+      "captures": [
+        "K_W255_start",
+        "G_W255_FULL",
+        "G_W255_C",
+        "G_W255_TL",
+        "G_W255_T",
+        "G_W255_TR",
+        "G_W255_L",
+        "G_W255_R",
+        "G_W255_BL",
+        "G_W255_B",
+        "G_W255_BR",
+        "K_W255_end"
+      ]
+    }
+  ],
+  "anchors": [
+    {
+      "label": "ANCHOR_00",
+      "after_step": null,
+      "time": "2026-10-05T11:18:42.779-05:00",
+      "lux": [
+        29.677427291870117,
+        29.513582229614258,
+        29.57358741760254
+      ],
+      "lux_median": 29.57358741760254,
+      "ratio_to_reference": null,
+      "flags": [],
+      "duty_reapplied_from": null,
+      "anchor_state": {
+        "brightness": "8",
+        "duty_cycle": "98"
+      },
+      "restored_state": {
+        "brightness": "7",
+        "duty_cycle": "98"
+      },
+      "readback": {
+        "fb_w": 1920,
+        "fb_h": 1080,
+        "left": [
+          0,
+          0,
+          255
+        ],
+        "right": [
+          0,
+          0,
+          255
+        ]
+      },
+      "readback_fixes": [],
+      "capture_attempts": 1
+    },
+    {
+      "label": "ANCHOR_01",
+      "after_step": "K_R255_end",
+      "time": "2026-10-05T11:19:53.466-05:00",
+      "lux": [
+        29.556259155273438,
+        29.58211326599121,
+        29.734596252441406
+      ],
+      "lux_median": 29.58211326599121,
+      "ratio_to_reference": 1.000288292666976,
+      "flags": [],
+      "duty_reapplied_from": null,
+      "anchor_state": {
+        "brightness": "8",
+        "duty_cycle": "98"
+      },
+      "restored_state": {
+        "brightness": "7",
+        "duty_cycle": "98"
+      },
+      "readback": {
+        "fb_w": 1920,
+        "fb_h": 1080,
+        "left": [
+          0,
+          0,
+          255
+        ],
+        "right": [
+          0,
+          0,
+          255
+        ]
+      },
+      "readback_fixes": [],
+      "capture_attempts": 1
+    },
+    {
+      "label": "ANCHOR_02",
+      "after_step": "K_G255_end",
+      "time": "2026-10-05T11:21:09.904-05:00",
+      "lux": [
+        29.38715934753418,
+        29.61920738220215,
+        29.374958038330078
+      ],
+      "lux_median": 29.38715934753418,
+      "ratio_to_reference": 0.9936961293387966,
+      "flags": [],
+      "duty_reapplied_from": null,
+      "anchor_state": {
+        "brightness": "8",
+        "duty_cycle": "98"
+      },
+      "restored_state": {
+        "brightness": "7",
+        "duty_cycle": "98"
+      },
+      "readback": {
+        "fb_w": 1920,
+        "fb_h": 1080,
+        "left": [
+          0,
+          0,
+          255
+        ],
+        "right": [
+          0,
+          0,
+          255
+        ]
+      },
+      "readback_fixes": [],
+      "capture_attempts": 1
+    },
+    {
+      "label": "ANCHOR_03",
+      "after_step": "K_B255_end",
+      "time": "2026-10-05T11:22:22.724-05:00",
+      "lux": [
+        29.65168571472168,
+        29.751468658447266,
+        29.578933715820312
+      ],
+      "lux_median": 29.65168571472168,
+      "ratio_to_reference": 1.0026408124255042,
+      "flags": [],
+      "duty_reapplied_from": null,
+      "anchor_state": {
+        "brightness": "8",
+        "duty_cycle": "98"
+      },
+      "restored_state": {
+        "brightness": "7",
+        "duty_cycle": "98"
+      },
+      "readback": {
+        "fb_w": 1920,
+        "fb_h": 1080,
+        "left": [
+          0,
+          0,
+          255
+        ],
+        "right": [
+          0,
+          0,
+          255
+        ]
+      },
+      "readback_fixes": [],
+      "capture_attempts": 1
+    },
+    {
+      "label": "ANCHOR_04",
+      "after_step": "K_W255_end",
+      "time": "2026-10-05T11:23:40.228-05:00",
+      "lux": [
+        29.98977279663086,
+        29.877723693847656,
+        30.015399932861328
+      ],
+      "lux_median": 29.98977279663086,
+      "ratio_to_reference": 1.014072874323681,
+      "flags": [],
+      "duty_reapplied_from": null,
+      "anchor_state": {
+        "brightness": "8",
+        "duty_cycle": "98"
+      },
+      "restored_state": {
+        "brightness": "7",
+        "duty_cycle": "98"
+      },
+      "readback": {
+        "fb_w": 1920,
+        "fb_h": 1080,
+        "left": [
+          0,
+          0,
+          255
+        ],
+        "right": [
+          0,
+          0,
+          255
+        ]
+      },
+      "readback_fixes": [],
+      "capture_attempts": 1
+    }
+  ],
+  "captures": [
+    {
+      "label": "K_R255_start",
+      "rgb": [
+        0,
+        0,
+        0
+      ],
+      "level": 7,
+      "duty": 98,
+      "flags": [],
+      "role": "black_start",
+      "block_index": 0,
+      "color": "R255",
+      "cell": null,
+      "acquisition_order": 1
+    },
+    {
+      "label": "G_R255_FULL",
+      "rgb": [
+        255,
+        0,
+        0
+      ],
+      "level": 7,
+      "duty": 98,
+      "flags": [],
+      "role": "full",
+      "block_index": 0,
+      "color": "R255",
+      "cell": null,
+      "acquisition_order": 2
+    },
+    {
+      "label": "G_R255_C",
+      "rgb": [
+        255,
+        0,
+        0
+      ],
+      "level": 7,
+      "duty": 98,
+      "flags": [],
+      "role": "cell",
+      "block_index": 0,
+      "color": "R255",
+      "cell": "C",
+      "acquisition_order": 3
+    },
+    {
+      "label": "G_R255_TL",
+      "rgb": [
+        255,
+        0,
+        0
+      ],
+      "level": 7,
+      "duty": 98,
+      "flags": [],
+      "role": "cell",
+      "block_index": 0,
+      "color": "R255",
+      "cell": "TL",
+      "acquisition_order": 4
+    },
+    {
+      "label": "G_R255_T",
+      "rgb": [
+        255,
+        0,
+        0
+      ],
+      "level": 7,
+      "duty": 98,
+      "flags": [],
+      "role": "cell",
+      "block_index": 0,
+      "color": "R255",
+      "cell": "T",
+      "acquisition_order": 5
+    },
+    {
+      "label": "G_R255_TR",
+      "rgb": [
+        255,
+        0,
+        0
+      ],
+      "level": 7,
+      "duty": 98,
+      "flags": [],
+      "role": "cell",
+      "block_index": 0,
+      "color": "R255",
+      "cell": "TR",
+      "acquisition_order": 6
+    },
+    {
+      "label": "G_R255_L",
+      "rgb": [
+        255,
+        0,
+        0
+      ],
+      "level": 7,
+      "duty": 98,
+      "flags": [],
+      "role": "cell",
+      "block_index": 0,
+      "color": "R255",
+      "cell": "L",
+      "acquisition_order": 7
+    },
+    {
+      "label": "G_R255_R",
+      "rgb": [
+        255,
+        0,
+        0
+      ],
+      "level": 7,
+      "duty": 98,
+      "flags": [],
+      "role": "cell",
+      "block_index": 0,
+      "color": "R255",
+      "cell": "R",
+      "acquisition_order": 8
+    },
+    {
+      "label": "G_R255_BL",
+      "rgb": [
+        255,
+        0,
+        0
+      ],
+      "level": 7,
+      "duty": 98,
+      "flags": [],
+      "role": "cell",
+      "block_index": 0,
+      "color": "R255",
+      "cell": "BL",
+      "acquisition_order": 9
+    },
+    {
+      "label": "G_R255_B",
+      "rgb": [
+        255,
+        0,
+        0
+      ],
+      "level": 7,
+      "duty": 98,
+      "flags": [],
+      "role": "cell",
+      "block_index": 0,
+      "color": "R255",
+      "cell": "B",
+      "acquisition_order": 10
+    },
+    {
+      "label": "G_R255_BR",
+      "rgb": [
+        255,
+        0,
+        0
+      ],
+      "level": 7,
+      "duty": 98,
+      "flags": [],
+      "role": "cell",
+      "block_index": 0,
+      "color": "R255",
+      "cell": "BR",
+      "acquisition_order": 11
+    },
+    {
+      "label": "K_R255_end",
+      "rgb": [
+        0,
+        0,
+        0
+      ],
+      "level": 7,
+      "duty": 98,
+      "flags": [],
+      "role": "black_end",
+      "block_index": 0,
+      "color": "R255",
+      "cell": null,
+      "acquisition_order": 12
+    },
+    {
+      "label": "K_G255_start",
+      "rgb": [
+        0,
+        0,
+        0
+      ],
+      "level": 7,
+      "duty": 98,
+      "flags": [],
+      "role": "black_start",
+      "block_index": 1,
+      "color": "G255",
+      "cell": null,
+      "acquisition_order": 13
+    },
+    {
+      "label": "G_G255_FULL",
+      "rgb": [
+        0,
+        255,
+        0
+      ],
+      "level": 7,
+      "duty": 98,
+      "flags": [],
+      "role": "full",
+      "block_index": 1,
+      "color": "G255",
+      "cell": null,
+      "acquisition_order": 14
+    },
+    {
+      "label": "G_G255_C",
+      "rgb": [
+        0,
+        255,
+        0
+      ],
+      "level": 7,
+      "duty": 98,
+      "flags": [],
+      "role": "cell",
+      "block_index": 1,
+      "color": "G255",
+      "cell": "C",
+      "acquisition_order": 15
+    },
+    {
+      "label": "G_G255_TL",
+      "rgb": [
+        0,
+        255,
+        0
+      ],
+      "level": 7,
+      "duty": 98,
+      "flags": [],
+      "role": "cell",
+      "block_index": 1,
+      "color": "G255",
+      "cell": "TL",
+      "acquisition_order": 16
+    },
+    {
+      "label": "G_G255_T",
+      "rgb": [
+        0,
+        255,
+        0
+      ],
+      "level": 7,
+      "duty": 98,
+      "flags": [],
+      "role": "cell",
+      "block_index": 1,
+      "color": "G255",
+      "cell": "T",
+      "acquisition_order": 17
+    },
+    {
+      "label": "G_G255_TR",
+      "rgb": [
+        0,
+        255,
+        0
+      ],
+      "level": 7,
+      "duty": 98,
+      "flags": [],
+      "role": "cell",
+      "block_index": 1,
+      "color": "G255",
+      "cell": "TR",
+      "acquisition_order": 18
+    },
+    {
+      "label": "G_G255_L",
+      "rgb": [
+        0,
+        255,
+        0
+      ],
+      "level": 7,
+      "duty": 98,
+      "flags": [],
+      "role": "cell",
+      "block_index": 1,
+      "color": "G255",
+      "cell": "L",
+      "acquisition_order": 19
+    },
+    {
+      "label": "G_G255_R",
+      "rgb": [
+        0,
+        255,
+        0
+      ],
+      "level": 7,
+      "duty": 98,
+      "flags": [],
+      "role": "cell",
+      "block_index": 1,
+      "color": "G255",
+      "cell": "R",
+      "acquisition_order": 20
+    },
+    {
+      "label": "G_G255_BL",
+      "rgb": [
+        0,
+        255,
+        0
+      ],
+      "level": 7,
+      "duty": 98,
+      "flags": [],
+      "role": "cell",
+      "block_index": 1,
+      "color": "G255",
+      "cell": "BL",
+      "acquisition_order": 21
+    },
+    {
+      "label": "G_G255_B",
+      "rgb": [
+        0,
+        255,
+        0
+      ],
+      "level": 7,
+      "duty": 98,
+      "flags": [],
+      "role": "cell",
+      "block_index": 1,
+      "color": "G255",
+      "cell": "B",
+      "acquisition_order": 22
+    },
+    {
+      "label": "G_G255_BR",
+      "rgb": [
+        0,
+        255,
+        0
+      ],
+      "level": 7,
+      "duty": 98,
+      "flags": [],
+      "role": "cell",
+      "block_index": 1,
+      "color": "G255",
+      "cell": "BR",
+      "acquisition_order": 23
+    },
+    {
+      "label": "K_G255_end",
+      "rgb": [
+        0,
+        0,
+        0
+      ],
+      "level": 7,
+      "duty": 98,
+      "flags": [],
+      "role": "black_end",
+      "block_index": 1,
+      "color": "G255",
+      "cell": null,
+      "acquisition_order": 24
+    },
+    {
+      "label": "K_B255_start",
+      "rgb": [
+        0,
+        0,
+        0
+      ],
+      "level": 7,
+      "duty": 98,
+      "flags": [],
+      "role": "black_start",
+      "block_index": 2,
+      "color": "B255",
+      "cell": null,
+      "acquisition_order": 25
+    },
+    {
+      "label": "G_B255_FULL",
+      "rgb": [
+        0,
+        0,
+        255
+      ],
+      "level": 7,
+      "duty": 98,
+      "flags": [],
+      "role": "full",
+      "block_index": 2,
+      "color": "B255",
+      "cell": null,
+      "acquisition_order": 26
+    },
+    {
+      "label": "G_B255_C",
+      "rgb": [
+        0,
+        0,
+        255
+      ],
+      "level": 7,
+      "duty": 98,
+      "flags": [],
+      "role": "cell",
+      "block_index": 2,
+      "color": "B255",
+      "cell": "C",
+      "acquisition_order": 27
+    },
+    {
+      "label": "G_B255_TL",
+      "rgb": [
+        0,
+        0,
+        255
+      ],
+      "level": 7,
+      "duty": 98,
+      "flags": [],
+      "role": "cell",
+      "block_index": 2,
+      "color": "B255",
+      "cell": "TL",
+      "acquisition_order": 28
+    },
+    {
+      "label": "G_B255_T",
+      "rgb": [
+        0,
+        0,
+        255
+      ],
+      "level": 7,
+      "duty": 98,
+      "flags": [],
+      "role": "cell",
+      "block_index": 2,
+      "color": "B255",
+      "cell": "T",
+      "acquisition_order": 29
+    },
+    {
+      "label": "G_B255_TR",
+      "rgb": [
+        0,
+        0,
+        255
+      ],
+      "level": 7,
+      "duty": 98,
+      "flags": [],
+      "role": "cell",
+      "block_index": 2,
+      "color": "B255",
+      "cell": "TR",
+      "acquisition_order": 30
+    },
+    {
+      "label": "G_B255_L",
+      "rgb": [
+        0,
+        0,
+        255
+      ],
+      "level": 7,
+      "duty": 98,
+      "flags": [],
+      "role": "cell",
+      "block_index": 2,
+      "color": "B255",
+      "cell": "L",
+      "acquisition_order": 31
+    },
+    {
+      "label": "G_B255_R",
+      "rgb": [
+        0,
+        0,
+        255
+      ],
+      "level": 7,
+      "duty": 98,
+      "flags": [],
+      "role": "cell",
+      "block_index": 2,
+      "color": "B255",
+      "cell": "R",
+      "acquisition_order": 32
+    },
+    {
+      "label": "G_B255_BL",
+      "rgb": [
+        0,
+        0,
+        255
+      ],
+      "level": 7,
+      "duty": 98,
+      "flags": [],
+      "role": "cell",
+      "block_index": 2,
+      "color": "B255",
+      "cell": "BL",
+      "acquisition_order": 33
+    },
+    {
+      "label": "G_B255_B",
+      "rgb": [
+        0,
+        0,
+        255
+      ],
+      "level": 7,
+      "duty": 98,
+      "flags": [],
+      "role": "cell",
+      "block_index": 2,
+      "color": "B255",
+      "cell": "B",
+      "acquisition_order": 34
+    },
+    {
+      "label": "G_B255_BR",
+      "rgb": [
+        0,
+        0,
+        255
+      ],
+      "level": 7,
+      "duty": 98,
+      "flags": [],
+      "role": "cell",
+      "block_index": 2,
+      "color": "B255",
+      "cell": "BR",
+      "acquisition_order": 35
+    },
+    {
+      "label": "K_B255_end",
+      "rgb": [
+        0,
+        0,
+        0
+      ],
+      "level": 7,
+      "duty": 98,
+      "flags": [],
+      "role": "black_end",
+      "block_index": 2,
+      "color": "B255",
+      "cell": null,
+      "acquisition_order": 36
+    },
+    {
+      "label": "K_W255_start",
+      "rgb": [
+        0,
+        0,
+        0
+      ],
+      "level": 7,
+      "duty": 98,
+      "flags": [],
+      "role": "black_start",
+      "block_index": 3,
+      "color": "W255",
+      "cell": null,
+      "acquisition_order": 37
+    },
+    {
+      "label": "G_W255_FULL",
+      "rgb": [
+        255,
+        255,
+        255
+      ],
+      "level": 7,
+      "duty": 98,
+      "flags": [],
+      "role": "full",
+      "block_index": 3,
+      "color": "W255",
+      "cell": null,
+      "acquisition_order": 38
+    },
+    {
+      "label": "G_W255_C",
+      "rgb": [
+        255,
+        255,
+        255
+      ],
+      "level": 7,
+      "duty": 98,
+      "flags": [],
+      "role": "cell",
+      "block_index": 3,
+      "color": "W255",
+      "cell": "C",
+      "acquisition_order": 39
+    },
+    {
+      "label": "G_W255_TL",
+      "rgb": [
+        255,
+        255,
+        255
+      ],
+      "level": 7,
+      "duty": 98,
+      "flags": [],
+      "role": "cell",
+      "block_index": 3,
+      "color": "W255",
+      "cell": "TL",
+      "acquisition_order": 40
+    },
+    {
+      "label": "G_W255_T",
+      "rgb": [
+        255,
+        255,
+        255
+      ],
+      "level": 7,
+      "duty": 98,
+      "flags": [],
+      "role": "cell",
+      "block_index": 3,
+      "color": "W255",
+      "cell": "T",
+      "acquisition_order": 41
+    },
+    {
+      "label": "G_W255_TR",
+      "rgb": [
+        255,
+        255,
+        255
+      ],
+      "level": 7,
+      "duty": 98,
+      "flags": [],
+      "role": "cell",
+      "block_index": 3,
+      "color": "W255",
+      "cell": "TR",
+      "acquisition_order": 42
+    },
+    {
+      "label": "G_W255_L",
+      "rgb": [
+        255,
+        255,
+        255
+      ],
+      "level": 7,
+      "duty": 98,
+      "flags": [],
+      "role": "cell",
+      "block_index": 3,
+      "color": "W255",
+      "cell": "L",
+      "acquisition_order": 43
+    },
+    {
+      "label": "G_W255_R",
+      "rgb": [
+        255,
+        255,
+        255
+      ],
+      "level": 7,
+      "duty": 98,
+      "flags": [],
+      "role": "cell",
+      "block_index": 3,
+      "color": "W255",
+      "cell": "R",
+      "acquisition_order": 44
+    },
+    {
+      "label": "G_W255_BL",
+      "rgb": [
+        255,
+        255,
+        255
+      ],
+      "level": 7,
+      "duty": 98,
+      "flags": [],
+      "role": "cell",
+      "block_index": 3,
+      "color": "W255",
+      "cell": "BL",
+      "acquisition_order": 45
+    },
+    {
+      "label": "G_W255_B",
+      "rgb": [
+        255,
+        255,
+        255
+      ],
+      "level": 7,
+      "duty": 98,
+      "flags": [],
+      "role": "cell",
+      "block_index": 3,
+      "color": "W255",
+      "cell": "B",
+      "acquisition_order": 46
+    },
+    {
+      "label": "G_W255_BR",
+      "rgb": [
+        255,
+        255,
+        255
+      ],
+      "level": 7,
+      "duty": 98,
+      "flags": [],
+      "role": "cell",
+      "block_index": 3,
+      "color": "W255",
+      "cell": "BR",
+      "acquisition_order": 47
+    },
+    {
+      "label": "K_W255_end",
+      "rgb": [
+        0,
+        0,
+        0
+      ],
+      "level": 7,
+      "duty": 98,
+      "flags": [],
+      "role": "black_end",
+      "block_index": 3,
+      "color": "W255",
+      "cell": null,
+      "acquisition_order": 48
+    }
+  ]
+}

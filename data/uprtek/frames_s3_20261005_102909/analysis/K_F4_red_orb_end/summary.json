@@ -1,0 +1,101 @@
+{
+  "source": "data/uprtek/frames_s3_20261005_102909/raw/K_F4_red_orb_end.csv",
+  "instrument": "UPRtek",
+  "meter_model": "MK350X",
+  "meter_optical_sn": "21B00584",
+  "meter_fw": "FWVer:1.1.1.B4",
+  "label": "K_F4_red_orb_end",
+  "device": "Luma Ultra",
+  "backend": "viture 2.4.0",
+  "eye": "both",
+  "rgb": [
+    0,
+    0,
+    0
+  ],
+  "brightness_level": 5,
+  "requested_brightness": 5,
+  "brightness_source": "sdk",
+  "duty_cycle": 98,
+  "requested_duty_cycle": 98,
+  "film": 0.0,
+  "display_mode": "49",
+  "calibration_version": "uprtek_v001",
+  "readback": {
+    "fb_w": 1920,
+    "fb_h": 1080,
+    "left": [
+      0,
+      0,
+      0
+    ],
+    "right": [
+      0,
+      0,
+      0
+    ]
+  },
+  "absolute_scale": "instrument_factory_calibration",
+  "certainty": "directly_measured",
+  "exposure_plane": "corneal-plane irradiance (cosine-corrected probe at eye position)",
+  "spectrum_unit_factor_to_W_m2_nm": 0.001,
+  "n_repeats": 3,
+  "repeat_irradiance_380_780_W_m2": [
+    0.0,
+    0.0,
+    0.0
+  ],
+  "repeat_cv_percent": null,
+  "exposure_time_raw": [
+    4000000.0,
+    4000000.0,
+    4000000.0
+  ],
+  "light_strength": [
+    0,
+    0,
+    0
+  ],
+  "instrument_lux": 0.0,
+  "instrument_cct_K": 0.0,
+  "instrument_cie1931_x": 0.0,
+  "instrument_cie1931_y": 0.0,
+  "computed_to_instrument_lux_ratio": null,
+  "peak_wavelength_nm": null,
+  "measured_fwhm_nm": null,
+  "lambda_half_left_nm": null,
+  "lambda_half_right_nm": null,
+  "spectral_centroid_nm": null,
+  "global_peak_wavelength_nm": 380.0,
+  "irradiance_380_500_W_m2": 0.0,
+  "irradiance_500_600_W_m2": 0.0,
+  "irradiance_600_780_W_m2": 0.0,
+  "irradiance_380_780_W_m2": 0.0,
+  "blue_fraction_380_500": null,
+  "green_fraction_500_600": null,
+  "red_fraction_600_780": null,
+  "offband_fraction_500_780": null,
+  "irradiance_W_m2": 0.0,
+  "irradiance_uW_cm2": 0.0,
+  "irradiance_400_500_uW_cm2": 0.0,
+  "irradiance_430_470_uW_cm2": 0.0,
+  "irradiance_380_780_uW_cm2": 0.0,
+  "photon_irradiance_photons_m2_s": 0.0,
+  "photon_irradiance_photons_cm2_s": 0.0,
+  "photon_irradiance_400_500_photons_cm2_s": 0.0,
+  "photopic_illuminance_lux": 0.0,
+  "s_cone_opic_EDI_lux": 0.0,
+  "m_cone_opic_EDI_lux": 0.0,
+  "l_cone_opic_EDI_lux": 0.0,
+  "rhodopic_EDI_lux": 0.0,
+  "melanopic_EDI_lux": 0.0,
+  "s_cone_opic_DER": null,
+  "m_cone_opic_DER": null,
+  "l_cone_opic_DER": null,
+  "rhodopic_DER": null,
+  "melanopic_DER": null,
+  "qc_flags": [
+    "LOW_LIGHT"
+  ],
+  "quantitative": true
+}

@@ -1,0 +1,228 @@
+{
+ "schema": "chronolume-model-grid/2",
+ "version": "v1",
+ "source": "docs/chronolume_exposure_model_developer_spec.md, Section 4, at the SDK duty presets",
+ "multi_channel_max_brightness": 7,
+ "duties": [
+  98,
+  42,
+  30
+ ],
+ "stages": {
+  "primaries": {
+   "role": "calibration",
+   "sessions": 3,
+   "groups": [
+    {
+     "name": "primaries",
+     "channels": [
+      "R",
+      "G",
+      "B"
+     ],
+     "codes": [
+      64,
+      128,
+      192,
+      255
+     ],
+     "levels": [
+      0,
+      4,
+      8
+     ],
+     "duties": [
+      30,
+      42,
+      98
+     ]
+    }
+   ]
+  },
+  "mixtures": {
+   "role": "calibration",
+   "sessions": 3,
+   "groups": [
+    {
+     "name": "mixtures",
+     "compositions": [
+      [
+       64,
+       64,
+       64
+      ],
+      [
+       128,
+       128,
+       128
+      ],
+      [
+       192,
+       192,
+       192
+      ],
+      [
+       255,
+       255,
+       255
+      ],
+      [
+       128,
+       128,
+       0
+      ],
+      [
+       128,
+       0,
+       128
+      ],
+      [
+       0,
+       128,
+       128
+      ],
+      [
+       255,
+       255,
+       0
+      ],
+      [
+       255,
+       0,
+       255
+      ],
+      [
+       0,
+       255,
+       255
+      ],
+      [
+       255,
+       64,
+       0
+      ],
+      [
+       64,
+       255,
+       0
+      ],
+      [
+       0,
+       255,
+       64
+      ],
+      [
+       0,
+       64,
+       255
+      ],
+      [
+       255,
+       0,
+       64
+      ],
+      [
+       64,
+       0,
+       255
+      ],
+      [
+       255,
+       128,
+       64
+      ],
+      [
+       64,
+       255,
+       128
+      ],
+      [
+       128,
+       64,
+       255
+      ]
+     ],
+     "levels": [
+      0,
+      4,
+      7
+     ],
+     "duties": [
+      30,
+      42,
+      98
+     ]
+    }
+   ]
+  },
+  "validation": {
+   "role": "validation",
+   "sessions": 1,
+   "groups": [
+    {
+     "name": "validation_primaries",
+     "channels": [
+      "R",
+      "G",
+      "B"
+     ],
+     "codes": [
+      96,
+      160
+     ],
+     "levels": [
+      2,
+      6
+     ],
+     "duties": [
+      42,
+      98
+     ]
+    },
+    {
+     "name": "validation_mixtures",
+     "compositions": [
+      [
+       96,
+       96,
+       96
+      ],
+      [
+       160,
+       160,
+       160
+      ],
+      [
+       192,
+       96,
+       0
+      ],
+      [
+       0,
+       192,
+       96
+      ],
+      [
+       96,
+       0,
+       192
+      ],
+      [
+       192,
+       96,
+       80
+      ]
+     ],
+     "levels": [
+      2,
+      6
+     ],
+     "duties": [
+      42,
+      98
+     ]
+    }
+   ]
+  }
+ }
+}

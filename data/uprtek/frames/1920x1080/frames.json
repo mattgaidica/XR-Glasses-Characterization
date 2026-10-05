@@ -1,0 +1,270 @@
+{
+ "schema": "chronolume-frames/1",
+ "frames": [
+  {
+   "name": "F1_morning_text",
+   "title": "Morning text slide",
+   "webapp_view": "World History slide, morning theme",
+   "composed_to_guidance": true,
+   "level": 8,
+   "nominal_rgb": [
+    0,
+    0,
+    255
+   ],
+   "references": [
+    [
+     0,
+     0,
+     255
+    ]
+   ],
+   "width": 1920,
+   "height": 1080,
+   "hash": "9be1378770e09165",
+   "lit_fraction": 0.12256172839506173,
+   "colors": [
+    {
+     "rgb": [
+      0,
+      0,
+      0
+     ],
+     "pixels": 1819456,
+     "fraction": 0.8774382716049383
+    },
+    {
+     "rgb": [
+      0,
+      0,
+      255
+     ],
+     "pixels": 254144,
+     "fraction": 0.12256172839506173
+    }
+   ],
+   "file": "C:\\Users\\Matt\\Documents\\Software\\Chronolume\\data\\uprtek\\frames\\1920x1080\\F1_morning_text.ppm"
+  },
+  {
+   "name": "F2_orb",
+   "title": "Light-only orb",
+   "webapp_view": "Light Only orb, morning theme",
+   "composed_to_guidance": true,
+   "level": 8,
+   "nominal_rgb": [
+    0,
+    0,
+    255
+   ],
+   "references": [
+    [
+     0,
+     0,
+     255
+    ],
+    [
+     0,
+     0,
+     192
+    ],
+    [
+     0,
+     0,
+     128
+    ],
+    [
+     0,
+     0,
+     64
+    ]
+   ],
+   "width": 1920,
+   "height": 1080,
+   "hash": "308c312100a958e1",
+   "lit_fraction": 0.44178240740740743,
+   "colors": [
+    {
+     "rgb": [
+      0,
+      0,
+      0
+     ],
+     "pixels": 1157520,
+     "fraction": 0.5582175925925926
+    },
+    {
+     "rgb": [
+      0,
+      0,
+      64
+     ],
+     "pixels": 254164,
+     "fraction": 0.12257137345679012
+    },
+    {
+     "rgb": [
+      0,
+      0,
+      255
+     ],
+     "pixels": 229020,
+     "fraction": 0.11044560185185186
+    },
+    {
+     "rgb": [
+      0,
+      0,
+      192
+     ],
+     "pixels": 219864,
+     "fraction": 0.10603009259259259
+    },
+    {
+     "rgb": [
+      0,
+      0,
+      128
+     ],
+     "pixels": 213032,
+     "fraction": 0.10273533950617283
+    }
+   ],
+   "file": "C:\\Users\\Matt\\Documents\\Software\\Chronolume\\data\\uprtek\\frames\\1920x1080\\F2_orb.ppm"
+  },
+  {
+   "name": "F3_night_text",
+   "title": "Night text slide (webapp colors)",
+   "webapp_view": "World History slide, night theme",
+   "composed_to_guidance": false,
+   "level": 5,
+   "nominal_rgb": [
+    255,
+    92,
+    56
+   ],
+   "references": [
+    [
+     255,
+     92,
+     56
+    ],
+    [
+     20,
+     5,
+     7
+    ]
+   ],
+   "width": 1920,
+   "height": 1080,
+   "hash": "d63de97e63b578e5",
+   "lit_fraction": 1.0,
+   "colors": [
+    {
+     "rgb": [
+      20,
+      5,
+      7
+     ],
+     "pixels": 1819456,
+     "fraction": 0.8774382716049383
+    },
+    {
+     "rgb": [
+      255,
+      92,
+      56
+     ],
+     "pixels": 254144,
+     "fraction": 0.12256172839506173
+    }
+   ],
+   "file": "C:\\Users\\Matt\\Documents\\Software\\Chronolume\\data\\uprtek\\frames\\1920x1080\\F3_night_text.ppm"
+  },
+  {
+   "name": "F4_red_orb",
+   "title": "Red light-only orb",
+   "webapp_view": "Light Only orb, night theme",
+   "composed_to_guidance": true,
+   "level": 5,
+   "nominal_rgb": [
+    255,
+    0,
+    0
+   ],
+   "references": [
+    [
+     255,
+     0,
+     0
+    ],
+    [
+     192,
+     0,
+     0
+    ],
+    [
+     128,
+     0,
+     0
+    ],
+    [
+     64,
+     0,
+     0
+    ]
+   ],
+   "width": 1920,
+   "height": 1080,
+   "hash": "cb57e0b06ec58f41",
+   "lit_fraction": 0.44178240740740743,
+   "colors": [
+    {
+     "rgb": [
+      0,
+      0,
+      0
+     ],
+     "pixels": 1157520,
+     "fraction": 0.5582175925925926
+    },
+    {
+     "rgb": [
+      64,
+      0,
+      0
+     ],
+     "pixels": 254164,
+     "fraction": 0.12257137345679012
+    },
+    {
+     "rgb": [
+      255,
+      0,
+      0
+     ],
+     "pixels": 229020,
+     "fraction": 0.11044560185185186
+    },
+    {
+     "rgb": [
+      192,
+      0,
+      0
+     ],
+     "pixels": 219864,
+     "fraction": 0.10603009259259259
+    },
+    {
+     "rgb": [
+      128,
+      0,
+      0
+     ],
+     "pixels": 213032,
+     "fraction": 0.10273533950617283
+    }
+   ],
+   "file": "C:\\Users\\Matt\\Documents\\Software\\Chronolume\\data\\uprtek\\frames\\1920x1080\\F4_red_orb.ppm"
+  }
+ ]
+}
